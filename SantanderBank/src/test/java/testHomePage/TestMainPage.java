@@ -12,52 +12,36 @@ public class TestMainPage extends MainPage {
     @BeforeMethod
     public void initialize() {
         TestLogger.log(convertToString(new Object(){}.getClass().getSimpleName()) + " : " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())); //implemented by Nasir
+        }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
     @Test
-    public void testLogo(){
+    public void testSantanderLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkLogo();
+        mainPage.checkSantanderLogo();
     }
     @Test
-    public void testFindADoctor(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor();
-    }
-    @Test
-    public void testCommunityLocations300Plus(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCommunityLocations300Plus();
-    }
-    @Test
-    public void testCaptionOfSymbolOfMap() {
+    public void testSearchBox() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCaptionOfSymbolOfMap();
+        mainPage.checkSearchBox();
     }
     @Test
-    public void testInsideMountSinaiBlog() {
+    public void testPersonal() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInsideMountSinaiBlog();
+        mainPage.checkPersonal();
     }
     @Test
-    public void testBlogInLinkedIn() {
+    public void testBusiness() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkBlogInLinkedIn();
+        mainPage.checkBusiness();
     }
     @Test
-    public void testInternationalServices() {
+    public void testCommercial() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInternationalServices();
-    }
-    @Test
-    public void testFindADoctor3() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor3();
+        mainPage.checkCommercial();
     }
 }
