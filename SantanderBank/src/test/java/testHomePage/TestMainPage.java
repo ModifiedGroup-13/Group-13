@@ -16,48 +16,9 @@ public class TestMainPage extends MainPage {
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
     @Test
-    public void testLogo(){
+    public void testSantanderLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkLogo();
+        mainPage.checkSantanderLogo();
     }
-    @Test
-    public void testFindADoctor(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor();
-    }
-    @Test
-    public void testCommunityLocations300Plus(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCommunityLocations300Plus();
-    }
-    @Test
-    public void testCaptionOfSymbolOfMap() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCaptionOfSymbolOfMap();
-    }
-    @Test
-    public void testInsideMountSinaiBlog() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInsideMountSinaiBlog();
-    }
-    @Test
-    public void testBlogInLinkedIn() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkBlogInLinkedIn();
-    }
-    @Test
-    public void testInternationalServices() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInternationalServices();
-    }
-    @Test
-    public void testFindADoctor3() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor3();
-    }
+
 }
