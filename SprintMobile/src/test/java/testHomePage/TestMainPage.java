@@ -56,5 +56,44 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkCart();
     }
-
+    @Test
+    public void testSignin(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSignin();
+    }
+    @Test
+    public void testEspanol(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkEspanol();
+    }
+    @Test
+    public void testBusiness(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBusiness();
+    }
+    @Test
+    public void testStores(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkStores();
+    }
+    @Test
+    public void testThisIsMe(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkThisIsMe();
+    }
+    @Test
+    public void testThisIsUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkThisIsUs();
+    }
+    @Test
+    public void testWhichiPhoneisRightForYou(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkWhichiPhoneisRightForYou();
+    }
+    @Test
+    public void testUpgrademyDevice(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkUpgrademyDevice();
+    }
 }

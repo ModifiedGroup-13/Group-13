@@ -22,7 +22,22 @@ public class MainPage extends CommonAPI {
     public static WebElement Search;
     @FindBy(xpath = "//p[contains(text(),'Cart')]")
     public static WebElement Cart;
-
+    @FindBy(xpath = "//a[@title='Sign In']")
+    public static WebElement Signin;
+    @FindBy(xpath = "//a[contains(text(),'Espanol')]")
+    public static WebElement Espanol;
+    @FindBy(xpath = "//a[@class='color--black'][contains(text(),'Business')]")
+    public static WebElement Business;
+    @FindBy(xpath = "//a[@class='color--black'][contains(text(),'Stores')]")
+    public static WebElement Stores;
+    @FindBy(xpath = "//a[@title='This Is Me']")
+    public static WebElement ThisIsMe;
+    @FindBy(xpath = "//a[@title='This Is Us']")
+    public static WebElement ThisIsUs;
+    @FindBy(xpath = "//span[contains(text(),'Which iPhone is Right For You?')]")
+    public static WebElement WhichiPhoneisRightForYou;
+    @FindBy(xpath = "//a[@title='Upgrade my Device']")
+    public static WebElement UpgrademyDevice;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -65,7 +80,44 @@ public class MainPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         Cart.click();
     }
-
-
-
+    public void checkSignin() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Signin.click();
+    }
+    public void checkEspanol() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Espanol.click();
+    }
+    public void checkBusiness() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Business.click();
+    }
+    public void checkStores() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Stores.click();
+    }
+    public void checkThisIsMe() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ThisIsMe.click();
+    }
+    public void checkThisIsUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ThisIsUs.click();
+    }
+    public void checkWhichiPhoneisRightForYou() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        WhichiPhoneisRightForYou.click();
+    }
+    public void checkUpgrademyDevice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        UpgrademyDevice.click();
+    }
 }
