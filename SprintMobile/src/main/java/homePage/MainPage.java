@@ -52,6 +52,8 @@ public class MainPage extends CommonAPI {
     public static WebElement Readon ;
     @FindBy(xpath = "//a[contains(text(),'Shop Now')]")
     public static WebElement ShopNowiPhoneXR ;
+    @FindBy(xpath = "//span[contains(text(),'Get Inspired')]")
+    public static WebElement GetInspired ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -170,5 +172,10 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         ShopNowiPhoneXR.click();
+    }
+    public void checkGetInspired() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        GetInspired.click();
     }
 }
