@@ -54,6 +54,14 @@ public class MainPage extends CommonAPI {
     public static WebElement ShopNowiPhoneXR ;
     @FindBy(xpath = "//span[contains(text(),'Get Inspired')]")
     public static WebElement GetInspired ;
+    @FindBy(xpath = "//a[@title='Find Out Now']")
+    public static WebElement FindOutNow ;
+    @FindBy(xpath = "//a[contains(@href,'/en/shop/cell-phones.html?INTCID=HP:PROS:B:brand:samsung&credit=A2&sort=FEATURED&manufacturer=Samsung')]//figure[contains(@class,'')]//img[contains(@class,'ui-image__file ui-image__file--responsive')]")
+    public static WebElement Samsung ;
+    @FindBy(xpath = "//a[contains(@href,'/en/shop/cell-phones.html?INTCID=HP:PROS:B:brand:lg&credit=A2&sort=FEATURED&manufacturer=LG')]//figure[contains(@class,'mt-20 mb-20 ml-25')]//img[contains(@class,'ui-image__file ui-image__file--responsive')]")
+    public static WebElement LG ;
+    @FindBy(xpath = "//a[contains(@href,'/en/shop/cell-phones.html?INTCID=HP:PROS:B:brand:Motorola&credit=A2&sort=FEATURED&manufacturer=Motorola')]//figure[contains(@class,'mt-20 mb-20 ml-25')]//img[contains(@class,'ui-image__file ui-image__file--responsive')]")
+    public static WebElement Motorola ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -177,5 +185,25 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         GetInspired.click();
+    }
+    public void checkFindOutNow() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        FindOutNow.click();
+    }
+    public void checkSamsung() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Samsung.click();
+    }
+    public void checkLG() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        LG.click();
+    }
+    public void checkMotorola() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Motorola.click();
     }
 }
