@@ -17,10 +17,10 @@ public class TestMainPage extends MainPage {
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
     @Test
-    public void testviewWareHouseSavings() {
+    public void testviewWeddingReg() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewWareHouseSavings();
+        mainPage.checkWeddingReg();
     }
 
 

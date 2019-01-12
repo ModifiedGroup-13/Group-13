@@ -9,7 +9,7 @@
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.costco.com/"/>
+    <parameter name="url" value="https://www.bedbathandbeyond.com/"/>
 
     <test name = "BedAndBath Home">
         <classes>

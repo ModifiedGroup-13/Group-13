@@ -51,7 +51,7 @@ public class BaseUtil {
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
                               String browserVersion, @Optional("http://www.mountsinai.org") String url)throws IOException {
 
-        System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/home/lobid/Downloads/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -73,7 +73,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
+                //System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
             builder = new Actions(driver);
@@ -83,7 +83,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
+               // System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
@@ -94,11 +94,11 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.gecko.driver", "../Generic/browserDriver/geckodriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.gecko.driver", "..\\Generic\\browserDriver\\geckodriver.exe");
+                //System.setProperty("webdriver.gecko.driver", "..\\Generic\\browserDriver\\geckodriver.exe");
             }
             driver = new FirefoxDriver();
         } else if(browserName.equalsIgnoreCase("ie")) {
-            System.setProperty("webdriver.ie.driver", "..\\Generic\\browserDriver\\IEDriverServer.exe");
+            //System.setProperty("webdriver.ie.driver", "..\\Generic\\browserDriver\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
         }
         return driver;
