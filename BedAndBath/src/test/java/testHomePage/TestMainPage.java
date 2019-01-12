@@ -23,8 +23,18 @@ public class TestMainPage extends MainPage {
         mainPage.checkWeddingReg();
     }
 
-
-
+    @Test
+    public void testSignin() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSignIn();
+    }
+    @Test
+    public void testPrint() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPrint();
+    }
 
 
 
