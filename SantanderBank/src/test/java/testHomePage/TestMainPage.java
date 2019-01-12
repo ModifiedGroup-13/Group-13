@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class TestMainPage extends MainPage {
-
     MainPage mainPage;
     @BeforeMethod
     public void initialize() {
@@ -50,42 +49,36 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkAbout();
     }
-
     @Test
     public void testSantanderCommercialBanking() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkSantanderCommercialBanking();
     }
-
     @Test
     public void testBorrowing() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkBorrowing();
     }
-
     @Test
     public void testBanking() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkBanking();
     }
-
     @Test
     public void testCreditCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkCreditCards();
     }
-
     @Test
     public void testProsperAndThrive() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkProsperAndThrive();
     }
-
     @Test
     public void testATMBranchLocator() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

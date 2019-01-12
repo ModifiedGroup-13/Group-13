@@ -45,12 +45,11 @@ public class CommonAPI {
     public String saucelabs_accesskey = "";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
-
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("") String url)throws IOException {
-//for single test, put your web address on line 52, while push just keep the quotation, remove url
+                              String browserVersion, @Optional("https://www.santanderbank.com/us/personal") String url)throws IOException {
+    //for single test, put your web address on line 52, while push just keep the quotation, remove url
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -62,11 +61,10 @@ public class CommonAPI {
             getLocalDriver(os, browserName);
         }
         wait = new WebDriverWait(driver,10);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(35, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();
-
     }
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
