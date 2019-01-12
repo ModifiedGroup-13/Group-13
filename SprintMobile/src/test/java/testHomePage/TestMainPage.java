@@ -36,4 +36,25 @@ public class TestMainPage extends MainPage {
         mainPage.checkMySprint();
     }
 
+    @Test
+    public void testActivate(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkActivatet();
+    }
+    @Test
+    public void testCalltoorder(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCalltoorder();
+    }
+    @Test
+    public void testSearch(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSearch();
+    }
+    @Test
+    public void testCart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCart();
+    }
+
 }
