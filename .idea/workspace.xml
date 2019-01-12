@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="236">
+              <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +40,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="263">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-577">
+              <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -104,18 +122,22 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="BedAndBath" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
-    <option name="y" value="2" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="width" value="1361" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,14 +145,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
@@ -191,6 +248,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="SantanderBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,7 +263,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547256256024" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547272079740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -239,25 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testChecking">
-    <configuration name="TestMainPage.testBusiness" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SantanderBank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testBusiness" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestMainPage.testPrivacyPolicy">
     <configuration name="TestMainPage.testChecking" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
@@ -276,7 +323,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testCommercial" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testHome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -286,7 +333,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testCommercial" />
+      <option name="METHOD_NAME" value="testHome" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -294,7 +341,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testPersonal" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testPrivacyPolicy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -304,7 +351,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testPersonal" />
+      <option name="METHOD_NAME" value="testPrivacyPolicy" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -312,7 +359,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testTermsOfUse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -322,7 +369,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSearchBox" />
+      <option name="METHOD_NAME" value="testTermsOfUse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testUsefulLinksAndDocuments" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SantanderBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testUsefulLinksAndDocuments" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -332,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testPrivacyPolicy" />
+        <item itemvalue="TestNG.TestMainPage.testTermsOfUse" />
+        <item itemvalue="TestNG.TestMainPage.testHome" />
+        <item itemvalue="TestNG.TestMainPage.testUsefulLinksAndDocuments" />
         <item itemvalue="TestNG.TestMainPage.testChecking" />
-        <item itemvalue="TestNG.TestMainPage.testPersonal" />
-        <item itemvalue="TestNG.TestMainPage.testCommercial" />
-        <item itemvalue="TestNG.TestMainPage.testBusiness" />
-        <item itemvalue="TestNG.TestMainPage.testSearchBox" />
       </list>
     </recent_temporary>
   </component>
@@ -354,42 +419,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.11 at 18h 27m 02s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 18h 33m 36s.xml">
+    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 22h 55m 17s.xml">
       <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.11 at 19h 24m 51s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testSantanderLogo - 2019.01.11 at 19h 28m 06s.xml">
-      <configuration name="TestMainPage.testSantanderLogo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testSantanderLogo - 2019.01.11 at 19h 46m 12s.xml">
-      <configuration name="TestMainPage.testSantanderLogo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testSearchBox - 2019.01.11 at 19h 47m 19s.xml">
-      <configuration name="TestMainPage.testSearchBox" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 19h 48m 00s.xml">
+    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 23h 18m 29s.xml">
       <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testBusiness - 2019.01.11 at 19h 50m 07s.xml">
+    <history-entry file="TestMainPage_testPersonal - 2019.01.12 at 00h 31m 28s.xml">
+      <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testBusiness - 2019.01.12 at 00h 37m 17s.xml">
       <configuration name="TestMainPage.testBusiness" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testCommercial - 2019.01.11 at 19h 51m 05s.xml">
-      <configuration name="TestMainPage.testCommercial" configurationId="TestNG" />
+    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.12 at 00h 39m 27s.xml">
+      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 19h 56m 21s.xml">
-      <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testChecking - 2019.01.12 at 00h 41m 58s.xml">
+      <configuration name="TestMainPage.testChecking" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testUsefulLinksAndDocuments - 2019.01.12 at 00h 45m 23s.xml">
+      <configuration name="TestMainPage.testUsefulLinksAndDocuments" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testHome - 2019.01.12 at 00h 46m 27s.xml">
+      <configuration name="TestMainPage.testHome" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testTermsOfUse - 2019.01.12 at 00h 47m 40s.xml">
+      <configuration name="TestMainPage.testTermsOfUse" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testPrivacyPolicy - 2019.01.12 at 00h 48m 26s.xml">
+      <configuration name="TestMainPage.testPrivacyPolicy" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="2" width="1386" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19457014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -398,13 +463,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.221519" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.38265306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30952382" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.38265306" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32733223" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -413,7 +478,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.19909503" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.19969743" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
@@ -593,34 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5212">
-          <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,10 +682,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="263">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
