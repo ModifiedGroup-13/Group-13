@@ -92,8 +92,43 @@ public class TestMainPage extends MainPage {
         mainPage.checkWhichiPhoneisRightForYou();
     }
     @Test
-    public void testUpgrademyDevice(){
+    public void testcheckUpgrademyDevice(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkUpgrademyDevice();
+    }
+    @Test
+    public void testStayontopofyourfitnessgoals(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkStayontopofyourfitnessgoals();
+    }
+    @Test
+    public void testAddaNewLineofservice(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAddaNewLineofservice();
+    }
+    @Test
+    public void testShopNow(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopNow();
+    }
+    @Test
+    public void testShopNowiPad(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopNowiPad();
+    }
+    @Test
+    public void testShopNowiPhonex(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopNowiPhonex();
+    }
+    @Test
+    public void testReadon(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkReadon();
+    }
+    @Test
+    public void testShopNowiPhoneXR(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopNowiPhoneXR();
     }
 }

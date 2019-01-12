@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+            <state relative-caret-position="177">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+            <state relative-caret-position="367">
+              <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/BedAndBath/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/resources/SprintTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
       </list>
     </option>
   </component>
@@ -286,7 +286,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547264001531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547267136993" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -327,8 +327,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testUpgrademyDevice">
-    <configuration name="TestMainPage.testStores" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testShopNowiPhoneXR">
+    <configuration name="TestMainPage.testReadon" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -338,7 +338,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testStores" />
+      <option name="METHOD_NAME" value="testReadon" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -346,7 +346,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testThisIsMe" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testShopNow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -356,7 +356,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testThisIsMe" />
+      <option name="METHOD_NAME" value="testShopNow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -364,7 +364,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testThisIsUs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testShopNowiPad" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -374,7 +374,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testThisIsUs" />
+      <option name="METHOD_NAME" value="testShopNowiPad" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -382,7 +382,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testUpgrademyDevice" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testShopNowiPhoneXR" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -392,7 +392,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testUpgrademyDevice" />
+      <option name="METHOD_NAME" value="testShopNowiPhoneXR" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -400,7 +400,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testWhichiPhoneisRightForYou" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testShopNowiPhonex" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -410,7 +410,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testWhichiPhoneisRightForYou" />
+      <option name="METHOD_NAME" value="testShopNowiPhonex" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -420,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testUpgrademyDevice" />
-        <item itemvalue="TestNG.TestMainPage.testWhichiPhoneisRightForYou" />
-        <item itemvalue="TestNG.TestMainPage.testThisIsUs" />
-        <item itemvalue="TestNG.TestMainPage.testThisIsMe" />
-        <item itemvalue="TestNG.TestMainPage.testStores" />
+        <item itemvalue="TestNG.TestMainPage.testShopNowiPhoneXR" />
+        <item itemvalue="TestNG.TestMainPage.testReadon" />
+        <item itemvalue="TestNG.TestMainPage.testShopNowiPhonex" />
+        <item itemvalue="TestNG.TestMainPage.testShopNowiPad" />
+        <item itemvalue="TestNG.TestMainPage.testShopNow" />
       </list>
     </recent_temporary>
   </component>
@@ -438,44 +438,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547221930947</updated>
-      <workItem from="1547244161640" duration="15259000" />
+      <workItem from="1547244161640" duration="18300000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testCalltoorder - 2019.01.11 at 20h 55m 30s.xml">
-      <configuration name="TestMainPage.testCalltoorder" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testSearch - 2019.01.11 at 21h 02m 26s.xml">
-      <configuration name="TestMainPage.testSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testCart - 2019.01.11 at 21h 10m 01s.xml">
-      <configuration name="TestMainPage.testCart" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testSignin - 2019.01.11 at 21h 34m 36s.xml">
-      <configuration name="TestMainPage.testSignin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testEspanol - 2019.01.11 at 22h 04m 30s.xml">
-      <configuration name="TestMainPage.testEspanol" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testBusiness - 2019.01.11 at 22h 09m 32s.xml">
-      <configuration name="TestMainPage.testBusiness" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testStores - 2019.01.11 at 22h 13m 46s.xml">
-      <configuration name="TestMainPage.testStores" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testThisIsMe - 2019.01.11 at 22h 17m 10s.xml">
-      <configuration name="TestMainPage.testThisIsMe" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testThisIsUs - 2019.01.11 at 22h 22m 33s.xml">
       <configuration name="TestMainPage.testThisIsUs" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestMainPage_testWhichiPhoneisRightForYou - 2019.01.11 at 22h 26m 17s.xml">
       <configuration name="TestMainPage.testWhichiPhoneisRightForYou" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testUpgrademyDevice - 2019.01.11 at 22h 33m 43s.xml">
+      <configuration name="TestMainPage.testUpgrademyDevice" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testStayontopofyourfitnessgoals - 2019.01.11 at 22h 51m 52s.xml">
+      <configuration name="TestMainPage.testStayontopofyourfitnessgoals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAddaNewLineofservice - 2019.01.11 at 22h 58m 24s.xml">
+      <configuration name="TestMainPage.testAddaNewLineofservice" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNow - 2019.01.11 at 23h 02m 31s.xml">
+      <configuration name="TestMainPage.testShopNow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNowiPad - 2019.01.11 at 23h 07m 45s.xml">
+      <configuration name="TestMainPage.testShopNowiPad" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNowiPhonex - 2019.01.11 at 23h 12m 01s.xml">
+      <configuration name="TestMainPage.testShopNowiPhonex" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNowiPhonex - 2019.01.11 at 23h 13m 18s.xml">
+      <configuration name="TestMainPage.testShopNowiPhonex" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testReadon - 2019.01.11 at 23h 20m 10s.xml">
+      <configuration name="TestMainPage.testReadon" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15259000" />
+    <option name="totallyTimeSpent" value="18300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -758,20 +758,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+        <state relative-caret-position="367">
+          <caret line="129" column="20" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+        <state relative-caret-position="177">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

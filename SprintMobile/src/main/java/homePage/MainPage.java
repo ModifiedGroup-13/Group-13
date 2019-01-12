@@ -38,6 +38,20 @@ public class MainPage extends CommonAPI {
     public static WebElement WhichiPhoneisRightForYou;
     @FindBy(xpath = "//a[@title='Upgrade my Device']")
     public static WebElement UpgrademyDevice;
+    @FindBy(xpath = "//span[contains(text(),'Stay on top of your fitness goals.')]")
+    public static WebElement Stayontopofyourfitnessgoals;
+    @FindBy(xpath = "//body[contains(@class,'vanilla-modal')]")
+    public static WebElement AddaNewLineofservice ;
+    @FindBy(xpath = "//div[contains(@class,'col-md-auto py-20 border-right-md border--ash text-center')]//span[contains(text(),'Shop Now')]")
+    public static WebElement ShopNow ;
+    @FindBy(css = "body.vanilla-modal div.sprint-app:nth-child(2) div.ui-bucket div.ui-bucket__wrap div.ui-bucket__content.align-center:nth-child(1) div.row.row--column.height-100.top-xs div.col-xs-auto div.ui-bucket:nth-child(3) div.ui-bucket__wrap div.ui-bucket__content.align-left.container-xl:nth-child(1) div.row.row--column.height-100.top-xs div.col-xs-auto div.ui-columns div.row div.col-xs-24.col-md-auto.py-20.border-top.border-none-md.border--ash.text-center:nth-child(2) div.ui-button:nth-child(4) > a.button.button--minwidth-md.mt-20")
+    public static WebElement ShopNowiPad ;
+    @FindBy(xpath = "//div[contains(@class,'col-md-auto col-lg-13 col-xl-auto text-center text-left-md mt-md-20')]//a[contains(@title,'Shop Now')]")
+    public static WebElement ShopNowiPhonex ;
+    @FindBy(css = "body.vanilla-modal div.sprint-app:nth-child(2) div.ui-bucket div.ui-bucket__wrap div.ui-bucket__content.align-center:nth-child(1) div.row.row--column.height-100.top-xs div.col-xs-auto div.ui-bucket:nth-child(6) div.ui-bucket__wrap.my-40.bgc--ash-light.pa-40 div.ui-bucket__content.align-left.container-xl:nth-child(1) div.row.row--column.height-100.top-xs div.col-xs-auto div.ui-columns div.row.row--gutter-narrow div.col-xs-24.col-md-8.mb-20.mb-md-0:nth-child(1) div.ui-bucket div.ui-bucket__wrap div.ui-bucket__content.align-center:nth-child(1) div.row.row--column.height-100.middle-xs div.col-xs-auto div.ui-columns div.row.row--gutter-narrow.around-xs div.col-xs-auto:nth-child(1) div.text.parbase div.wysiwyg.mt-20.mb-20 > div.font-size-16.font-size-xs-14.font-size-sm-14.font-size-md-16")
+    public static WebElement Readon ;
+    @FindBy(xpath = "//a[contains(text(),'Shop Now')]")
+    public static WebElement ShopNowiPhoneXR ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -119,5 +133,42 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         UpgrademyDevice.click();
+    }
+    public void checkStayontopofyourfitnessgoals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Stayontopofyourfitnessgoals.click();
+    }
+
+    public void checkAddaNewLineofservice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        AddaNewLineofservice.click();
+    }
+    public void checkShopNow() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ShopNow.click();
+    }
+    public void checkShopNowiPad() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ShopNowiPad.click();
+    }
+
+    public void checkShopNowiPhonex() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ShopNowiPhonex.click();
+    }
+    public void checkReadon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Readon.click();
+    }
+    public void checkShopNowiPhoneXR() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ShopNowiPhoneXR.click();
     }
 }
