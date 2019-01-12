@@ -62,6 +62,8 @@ public class MainPage extends CommonAPI {
     public static WebElement LG ;
     @FindBy(xpath = "//a[contains(@href,'/en/shop/cell-phones.html?INTCID=HP:PROS:B:brand:Motorola&credit=A2&sort=FEATURED&manufacturer=Motorola')]//figure[contains(@class,'mt-20 mb-20 ml-25')]//img[contains(@class,'ui-image__file ui-image__file--responsive')]")
     public static WebElement Motorola ;
+    @FindBy(xpath = "//a[contains(@href,'/en/shop/cell-phones/samsung-galaxy-note9.html?INTCID=HP:PROS:B:phones:SGN9')]//figure[contains(@class,'soar-selection--simple')]//picture//img[contains(@class,'ui-image__file--responsive')]")
+    public static WebElement SamsungGalaxyNote9 ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -205,5 +207,10 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         Motorola.click();
+    }
+    public void checkSamsungGalaxyNote9() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        SamsungGalaxyNote9.click();
     }
 }
