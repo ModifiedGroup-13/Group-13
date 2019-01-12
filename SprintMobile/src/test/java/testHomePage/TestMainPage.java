@@ -14,11 +14,26 @@ public class TestMainPage extends MainPage {
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
 
-    //example
+
     @Test
-    public void testLogo(){
+    public void testShopDevices(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkLogo();
+        mainPage.checkShopDevices();
+    }
+    @Test
+    public void testShopPlans(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopPlans();
+    }
+    @Test
+    public void testSupport(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSupport();
+    }
+    @Test
+    public void testMySprint(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkMySprint();
     }
 
 }
