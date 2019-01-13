@@ -49,7 +49,7 @@ public class BaseUtil {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("http://www.mountsinai.org") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.bedbathandbeyond.com/") String url)throws IOException {
 
         System.setProperty("webdriver.chrome.driver","/home/lobid/Downloads/chromedriver");
         if(useCloudEnv==true){
@@ -62,16 +62,18 @@ public class BaseUtil {
             getLocalDriver(os, browserName);
         }
         wait = new WebDriverWait(driver,10);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(2000, TimeUnit.MILLISECONDS);
+        driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
-
+        driver.manage().window().maximize();
     }
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
+                System.setProperty("webdriver.chrome.driver","/home/lobid/Downloads/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
                 //System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
@@ -92,7 +94,7 @@ public class BaseUtil {
 
         else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.gecko.driver", "../Generic/browserDriver/geckodriver");
+                System.setProperty("webdriver.gecko.driver", "/home/lobid/Downloads/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")) {
                 //System.setProperty("webdriver.gecko.driver", "..\\Generic\\browserDriver\\geckodriver.exe");
             }
@@ -217,7 +219,7 @@ public class BaseUtil {
         webElement.clear();
     }
     public static void sleepFor(int sec)throws InterruptedException {
-        Thread.sleep(sec * 1000);
+        Thread.sleep(sec * 3000);
     }
     public List<String> getTextFromWebElements(WebElement element){
         List<WebElement> elements = new ArrayList<WebElement>();
@@ -227,4 +229,6 @@ public class BaseUtil {
         }
         return text;
     }
+
+
 }

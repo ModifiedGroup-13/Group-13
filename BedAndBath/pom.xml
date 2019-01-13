@@ -34,7 +34,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>/home/lobid/Desktop/GroupProject/Group-13/BedAndBath/target/test-classes/BedAndBathTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
