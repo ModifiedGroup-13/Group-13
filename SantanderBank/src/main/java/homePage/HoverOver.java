@@ -51,6 +51,16 @@ public class HoverOver extends CommonAPI {
         Thread.sleep(2000);
         System.out.println(CreditCards.getText());
     }
+    public void checkProsperAndThrive() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        Actions builder = new Actions(driver);
+        WebElement ProsperAndThrive = driver.findElement(By.xpath("//span[text()='Prosper and Thrive']"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
+        builder.moveToElement(ProsperAndThrive).build().perform();
+        Thread.sleep(2000);
+        System.out.println(ProsperAndThrive.getText());
+    }
       public void checkListOfHoverOver() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         Actions builder = new Actions(driver);

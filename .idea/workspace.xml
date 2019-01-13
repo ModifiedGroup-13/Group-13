@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java" afterDir="false" />
     </list>
@@ -25,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="51" />
+            <state relative-caret-position="148">
+              <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="50" column="105" selection-start-line="50" selection-start-column="105" selection-end-line="50" selection-end-column="105" />
+            <state relative-caret-position="264">
+              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
+            <state relative-caret-position="219">
+              <caret line="56" column="102" selection-start-line="56" selection-start-column="102" selection-end-line="56" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="270">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,9 +142,9 @@
         <option value="$PROJECT_DIR$/SantanderBank/pom.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestSearch.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -285,7 +287,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547356536761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547357031756" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SRoy/Web-Automation-FrameWork" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -326,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHoverOver.testCreditCards">
+  <component name="RunManager" selected="TestNG.TestHoverOver.testProsperAndThrive">
     <configuration name="TestHoverOver.testBorrowing" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
@@ -399,7 +401,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHoverOver.testProsperAndThrive" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -408,7 +410,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearch" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testProsperAndThrive" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -417,11 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHoverOver.testProsperAndThrive" />
         <item itemvalue="TestNG.TestHoverOver.testCreditCards" />
         <item itemvalue="TestNG.TestHoverOver.testInvestmentsAndProtection" />
         <item itemvalue="TestNG.TestHoverOver.testBorrowing" />
         <item itemvalue="TestNG.TestHoverOver.testListOfHoverOver" />
-        <item itemvalue="TestNG.TestSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -439,18 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testSantanderLogo - 2019.01.12 at 18h 35m 34s.xml">
-      <configuration name="TestMainPage.testSantanderLogo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver - 2019.01.12 at 18h 39m 37s.xml">
-      <configuration name="TestHoverOver" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSearch - 2019.01.12 at 18h 47m 15s.xml">
-      <configuration name="TestSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver_testListOfHoverOver - 2019.01.12 at 19h 03m 50s.xml">
-      <configuration name="TestHoverOver.testListOfHoverOver" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHoverOver_testListOfHoverOver - 2019.01.12 at 19h 23m 07s.xml">
       <configuration name="TestHoverOver.testListOfHoverOver" configurationId="TestNG" />
     </history-entry>
@@ -469,12 +461,24 @@
     <history-entry file="TestHoverOver_testInvestmentsAndProtection - 2019.01.13 at 00h 09m 31s.xml">
       <configuration name="TestHoverOver.testInvestmentsAndProtection" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHoverOver_testCreditCards - 2019.01.13 at 00h 15m 55s.xml">
+      <configuration name="TestHoverOver.testCreditCards" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHoverOver_testProsperAndThrive - 2019.01.13 at 00h 21m 24s.xml">
+      <configuration name="TestHoverOver.testProsperAndThrive" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHoverOver_testProsperAndThrive - 2019.01.13 at 00h 22m 11s.xml">
+      <configuration name="TestHoverOver.testProsperAndThrive" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHoverOver_testProsperAndThrive - 2019.01.13 at 00h 24m 09s.xml">
+      <configuration name="TestHoverOver.testProsperAndThrive" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.25510204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.25510204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -742,20 +746,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="50" column="105" selection-start-line="50" selection-start-column="105" selection-end-line="50" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="51" />
+        <state relative-caret-position="148">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -764,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
+        <state relative-caret-position="219">
+          <caret line="56" column="102" selection-start-line="56" selection-start-column="102" selection-end-line="56" selection-end-column="102" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,8 +768,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
