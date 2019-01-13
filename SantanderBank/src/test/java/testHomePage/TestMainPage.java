@@ -50,6 +50,12 @@ public class TestMainPage extends MainPage {
         mainPage.checkAbout();
     }
     @Test
+    public void testFullImage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFullImage();
+    }
+    @Test
     public void testLogin() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

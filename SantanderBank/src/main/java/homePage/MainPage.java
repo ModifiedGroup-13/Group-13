@@ -60,6 +60,15 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         About.click();
     }
+    @FindBy(xpath = "//img[@class='image_full']")
+    public static WebElement Fullimage;
+
+    public void checkFullImage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        Fullimage.click();
+    }
     @FindBy(xpath = "//span[contains(text(),'Login')]")
     public static WebElement Login;
 
@@ -118,7 +127,6 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         CreditCards.click();
     }
-
     @FindBy(xpath = "//span[text()='Prosper and Thrive']")
     public static WebElement ProsperAndThrive;
 
@@ -128,7 +136,6 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         ProsperAndThrive.click();
     }
-
     @FindBy(xpath = "//a[text() = 'ATM/Branch Locator']")
     public static WebElement ATMBranchLocator;
 
@@ -138,7 +145,6 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         ATMBranchLocator.click();
     }
-
     @FindBy(xpath = "//a[@class='button01 trk-btn']")
     public static WebElement findALocationNearYou;
 
@@ -148,7 +154,6 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         findALocationNearYou.click();
     }
-
     @FindBy(xpath = "//h4[text()='Contact Us']")
     public static WebElement contactUs;
 
