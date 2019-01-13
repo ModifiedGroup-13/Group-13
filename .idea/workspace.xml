@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BedAndBath/target/BedAndBath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BedAndBath/target/BedAndBath-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/Costco-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/Costco-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/SantanderBank-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/resources/SprintTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/test/resources/SprintTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/SprintMobile-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/SprintMobile-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,11 +33,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="160">
               <caret line="161" column="40" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,6 +113,8 @@
         <option value="$PROJECT_DIR$/SprintMobile/pom.xml" />
         <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" />
       </list>
     </option>
   </component>
@@ -170,14 +177,55 @@
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group-13" type="462c0819:PsiDirectoryNode" />
               <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group-13" type="462c0819:PsiDirectoryNode" />
               <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="SprintMobile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +238,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547321665803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547340639009" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -231,8 +279,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testSamsungGalaxyNote9">
-    <configuration name="TestMainPage.testFindOutNow" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestHoverOver.testShopDevices">
+    <configuration name="TestHoverOver.testShopDevices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -241,8 +289,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testFindOutNow" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testShopDevices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -324,11 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHoverOver.testShopDevices" />
         <item itemvalue="TestNG.TestMainPage.testSamsungGalaxyNote9" />
         <item itemvalue="TestNG.TestMainPage.testMotorola" />
         <item itemvalue="TestNG.TestMainPage.testLG" />
         <item itemvalue="TestNG.TestMainPage.testSamsung" />
-        <item itemvalue="TestNG.TestMainPage.testFindOutNow" />
       </list>
     </recent_temporary>
   </component>
@@ -344,14 +392,11 @@
       <updated>1547221930947</updated>
       <workItem from="1547244161640" duration="19087000" />
       <workItem from="1547267836333" duration="1228000" />
-      <workItem from="1547305967041" duration="3296000" />
+      <workItem from="1547305967041" duration="7222000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testShopNowiPad - 2019.01.11 at 23h 07m 45s.xml">
-      <configuration name="TestMainPage.testShopNowiPad" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testShopNowiPhonex - 2019.01.11 at 23h 12m 01s.xml">
       <configuration name="TestMainPage.testShopNowiPhonex" configurationId="TestNG" />
     </history-entry>
@@ -379,9 +424,12 @@
     <history-entry file="TestMainPage_testMotorola - 2019.01.11 at 23h 54m 46s.xml">
       <configuration name="TestMainPage.testMotorola" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testSamsungGalaxyNote9 - 2019.01.12 at 14h 35m 05s.xml">
+      <configuration name="TestMainPage.testSamsungGalaxyNote9" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23611000" />
+    <option name="totallyTimeSpent" value="27537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -396,12 +444,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31083483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31083483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
@@ -413,7 +461,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.14817813" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.15465587" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Database" order="9" />
@@ -441,12 +489,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -683,8 +725,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="160">
           <caret line="161" column="40" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -49,7 +49,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("https://www.sprint.com/") String url)throws IOException {
+                              String browserVersion, @Optional("") String url)throws IOException {
 //for single test, put your web address on line 52, while push just keep the quotation, remove url
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
