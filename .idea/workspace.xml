@@ -2,74 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Costco/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/Costco-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/Costco-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/classes/homePage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,10 +25,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="248">
+              <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,13 +49,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="51" column="86" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -151,12 +96,12 @@
         <option value="$PROJECT_DIR$/BedAndBath/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Costco/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Costco/pom.xml" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testHomePage/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java" />
+        <option value="$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java" />
       </list>
     </option>
   </component>
@@ -344,7 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547339440899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547343129751" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -384,43 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.testHoverOver.testbusinessdelivery">
-    <configuration name="TestMainPage.pLog" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Costco" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="pLog" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.pLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Costco" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="pLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.testHoverOver.testpharmacy">
     <configuration name="testHoverOver.testbusinessdelivery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Costco" />
       <extension name="coverage">
@@ -475,13 +384,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testHoverOver.testoptical" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.testHoverOver" />
+      <option name="METHOD_NAME" value="testoptical" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testHoverOver.testpharmacy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Costco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.testHoverOver" />
+      <option name="METHOD_NAME" value="testpharmacy" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.testHoverOver.testpharmacy" />
+        <item itemvalue="TestNG.testHoverOver.testmembership" />
+        <item itemvalue="TestNG.testHoverOver.testoptical" />
         <item itemvalue="TestNG.testHoverOver.testbusinessdelivery" />
         <item itemvalue="TestNG.testHoverOver.testgroery" />
-        <item itemvalue="TestNG.testHoverOver.testmembership" />
-        <item itemvalue="TestNG.TestMainPage.pLog" />
-        <item itemvalue="TestNG.TestMainPage.pLogo" />
       </list>
     </recent_temporary>
   </component>
@@ -499,27 +444,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testCustomerService - 2019.01.12 at 11h 58m 33s.xml">
-      <configuration name="TestMainPage.testCustomerService" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_nafas_Desktop_sohag_Group-13_Costco_src_test_resources_CostcoTestRunner_xml - 2019.01.12 at 12h 00m 03s.xml">
-      <configuration name="C:/Users/nafas/Desktop/sohag/Group-13/Costco/src/test/resources/CostcoTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_nafas_Desktop_sohag_Group-13_Costco_src_test_resources_CostcoTestRunner_xml - 2019.01.12 at 12h 23m 42s.xml">
-      <configuration name="C:/Users/nafas/Desktop/sohag/Group-13/Costco/src/test/resources/CostcoTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_pLog - 2019.01.12 at 12h 26m 31s.xml">
-      <configuration name="TestMainPage.pLog" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_pLogo - 2019.01.12 at 12h 27m 41s.xml">
-      <configuration name="TestMainPage.pLogo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_pLog - 2019.01.12 at 12h 35m 16s.xml">
-      <configuration name="TestMainPage.pLog" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="testHoverOver_testmembership - 2019.01.12 at 19h 05m 44s.xml">
-      <configuration name="testHoverOver.testmembership" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="testHoverOver_testmembership - 2019.01.12 at 19h 13m 33s.xml">
       <configuration name="testHoverOver.testmembership" configurationId="TestNG" />
     </history-entry>
@@ -528,6 +452,27 @@
     </history-entry>
     <history-entry file="testHoverOver_testgroery - 2019.01.12 at 19h 24m 03s.xml">
       <configuration name="testHoverOver.testgroery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testbusinessdelivery - 2019.01.12 at 19h 28m 55s.xml">
+      <configuration name="testHoverOver.testbusinessdelivery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testbusinessdelivery - 2019.01.12 at 19h 31m 07s.xml">
+      <configuration name="testHoverOver.testbusinessdelivery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testoptical - 2019.01.12 at 20h 20m 38s.xml">
+      <configuration name="testHoverOver.testoptical" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testoptical - 2019.01.12 at 20h 22m 41s.xml">
+      <configuration name="testHoverOver.testoptical" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testoptical - 2019.01.12 at 20h 27m 39s.xml">
+      <configuration name="testHoverOver.testoptical" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testmembership - 2019.01.12 at 20h 28m 08s.xml">
+      <configuration name="testHoverOver.testmembership" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="testHoverOver_testpharmacy - 2019.01.12 at 20h 31m 31s.xml">
+      <configuration name="testHoverOver.testpharmacy" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -559,7 +504,7 @@
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.016107382" />
-      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.2080537" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.039597314" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
@@ -769,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -793,23 +731,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="256">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Costco/src/test/java/testHomePage/testHoverOver.java">
+    <entry file="file://$PROJECT_DIR$/Costco/src/main/java/homePage/HoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="248">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="51" column="86" selection-start-line="51" selection-start-column="86" selection-end-line="51" selection-end-column="86" />
         </state>
       </provider>
     </entry>

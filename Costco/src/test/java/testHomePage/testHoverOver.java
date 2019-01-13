@@ -26,7 +26,17 @@ public class testHoverOver extends HoverOver {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkbusinessdelivery();
     }
-    @Test(enabled = true, priority = 3)
+    @Test(enabled = true, priority =3)
+    public void testoptical () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkoptical();
+    }
+    @Test(enabled = true, priority =4)
+    public void testpharmacy () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkpharmacy();
+    }
+    @Test(enabled = true, priority = 4)
     public void testmembership () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkmembership();
