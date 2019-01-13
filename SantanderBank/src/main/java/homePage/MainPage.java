@@ -195,4 +195,14 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         Checking.click();
     }
+    @FindBy(xpath = "//img[@class='image']")
+    public static WebElement image;
+
+    public void checkImage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        image.click();
+    }
 }
+
