@@ -20,4 +20,41 @@ public class HoverOver extends CommonAPI {
         Thread.sleep(2000);
         System.out.println(shopdevices.getText());
     }
+    public void checkShopPlans() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        Actions builder = new Actions(driver);
+        WebElement ShopPlans = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'Shop Plans')]"));
+        Thread.sleep(2000);
+        builder.moveToElement(ShopPlans).build().perform();
+        Thread.sleep(2000);
+        System.out.println(ShopPlans.getText());
+    }
+
+        public void checkSupport() throws InterruptedException {
+            TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+            Actions builder = new Actions(driver);
+            WebElement Support = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'Support')]"));
+            Thread.sleep(2000);
+            builder.moveToElement(Support).build().perform();
+            Thread.sleep(2000);
+            System.out.println(Support.getText());
+    }
+       public void checkMySprint() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        Actions builder = new Actions(driver);
+        WebElement MySprint = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'My Sprint')]"));
+        Thread.sleep(2000);
+        builder.moveToElement(MySprint).build().perform();
+        Thread.sleep(2000);
+        System.out.println(MySprint.getText());
+    }
+       public void checkActivate() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        Actions builder = new Actions(driver);
+        WebElement Activate = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'Activate')]"));
+        Thread.sleep(2000);
+        builder.moveToElement(Activate).build().perform();
+        Thread.sleep(2000);
+        System.out.println(Activate.getText());
+    }
 }

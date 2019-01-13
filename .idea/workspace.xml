@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/test-classes/testHomePage/TestHoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/test-classes/testHomePage/TestHoverOver.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,22 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="213" column="26" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="161" column="40" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+            <state relative-caret-position="286">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +41,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="286">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,13 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="303">
+              <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -109,12 +101,12 @@
         <option value="$PROJECT_DIR$/BedAndBath/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/BedAndBath/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/resources/SprintTestRunner.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/SprintMobile/pom.xml" />
         <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java" />
       </list>
     </option>
   </component>
@@ -162,6 +154,41 @@
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group-13" type="462c0819:PsiDirectoryNode" />
               <item name="Costco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
@@ -238,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547340639009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547346835311" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -279,7 +306,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHoverOver.testShopDevices">
+  <component name="RunManager" selected="TestNG.TestHoverOver.testActivate">
+    <configuration name="TestHoverOver.testActivate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testActivate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHoverOver.testMySprint" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testMySprint" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestHoverOver.testShopDevices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
@@ -298,7 +361,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testLG" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHoverOver.testShopPlans" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -307,8 +370,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testLG" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testShopPlans" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -316,7 +379,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testMotorola" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHoverOver.testSupport" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -325,44 +388,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testMotorola" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testSamsung" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SprintMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSamsung" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testSamsungGalaxyNote9" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SprintMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSamsungGalaxyNote9" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
+      <option name="METHOD_NAME" value="testSupport" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -372,11 +399,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestHoverOver.testActivate" />
+        <item itemvalue="TestNG.TestHoverOver.testMySprint" />
+        <item itemvalue="TestNG.TestHoverOver.testSupport" />
+        <item itemvalue="TestNG.TestHoverOver.testShopPlans" />
         <item itemvalue="TestNG.TestHoverOver.testShopDevices" />
-        <item itemvalue="TestNG.TestMainPage.testSamsungGalaxyNote9" />
-        <item itemvalue="TestNG.TestMainPage.testMotorola" />
-        <item itemvalue="TestNG.TestMainPage.testLG" />
-        <item itemvalue="TestNG.TestMainPage.testSamsung" />
       </list>
     </recent_temporary>
   </component>
@@ -392,50 +419,50 @@
       <updated>1547221930947</updated>
       <workItem from="1547244161640" duration="19087000" />
       <workItem from="1547267836333" duration="1228000" />
-      <workItem from="1547305967041" duration="7222000" />
+      <workItem from="1547305967041" duration="13098000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testShopNowiPhonex - 2019.01.11 at 23h 12m 01s.xml">
-      <configuration name="TestMainPage.testShopNowiPhonex" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 20h 35m 31s.xml">
+      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testShopNowiPhonex - 2019.01.11 at 23h 13m 18s.xml">
-      <configuration name="TestMainPage.testShopNowiPhonex" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testSupport - 2019.01.12 at 20h 44m 45s.xml">
+      <configuration name="TestHoverOver.testSupport" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testReadon - 2019.01.11 at 23h 20m 10s.xml">
-      <configuration name="TestMainPage.testReadon" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testShopDevices - 2019.01.12 at 20h 51m 56s.xml">
+      <configuration name="TestHoverOver.testShopDevices" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testShopNowiPhoneXR - 2019.01.11 at 23h 25m 55s.xml">
-      <configuration name="TestMainPage.testShopNowiPhoneXR" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 20h 52m 26s.xml">
+      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testGetInspired - 2019.01.11 at 23h 33m 33s.xml">
-      <configuration name="TestMainPage.testGetInspired" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 21h 10m 46s.xml">
+      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testFindOutNow - 2019.01.11 at 23h 43m 34s.xml">
-      <configuration name="TestMainPage.testFindOutNow" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 21h 12m 49s.xml">
+      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSamsung - 2019.01.11 at 23h 47m 41s.xml">
-      <configuration name="TestMainPage.testSamsung" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testSupport - 2019.01.12 at 21h 14m 54s.xml">
+      <configuration name="TestHoverOver.testSupport" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testLG - 2019.01.11 at 23h 51m 53s.xml">
-      <configuration name="TestMainPage.testLG" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testSupport - 2019.01.12 at 21h 17m 07s.xml">
+      <configuration name="TestHoverOver.testSupport" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testMotorola - 2019.01.11 at 23h 54m 46s.xml">
-      <configuration name="TestMainPage.testMotorola" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testMySprint - 2019.01.12 at 21h 30m 33s.xml">
+      <configuration name="TestHoverOver.testMySprint" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSamsungGalaxyNote9 - 2019.01.12 at 14h 35m 05s.xml">
-      <configuration name="TestMainPage.testSamsungGalaxyNote9" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testActivate - 2019.01.12 at 21h 34m 16s.xml">
+      <configuration name="TestHoverOver.testActivate" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27537000" />
+    <option name="totallyTimeSpent" value="33413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20809716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20809716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -444,12 +471,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31083483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31083483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
@@ -461,7 +488,7 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.15465587" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.024291499" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Database" order="9" />
@@ -676,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="50" column="78" lean-forward="true" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/target/test-classes/testHomePage/SprintTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -713,9 +733,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="161" column="41" selection-start-line="161" selection-start-column="41" selection-end-line="161" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="210">
           <caret line="213" column="26" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -723,10 +753,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="161" column="40" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
+        <state relative-caret-position="303">
+          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -735,18 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="286">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
