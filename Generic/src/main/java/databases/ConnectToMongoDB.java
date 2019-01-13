@@ -6,14 +6,11 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Created by mrahman on 09/09/18.
  */
-
 public class ConnectToMongoDB {
 
     public static MongoDatabase mongoDatabase = null;
@@ -22,10 +19,8 @@ public class ConnectToMongoDB {
         MongoClient mongoClient = new MongoClient();
         mongoDatabase = mongoClient.getDatabase("students");
         System.out.println("Database Connected");
-
         return mongoDatabase;
     }
-
     public static String insertIntoToMongoDB(User user){
         String profile = user.getStName();
         MongoDatabase mongoDatabase = connectToMongoDB();
@@ -35,7 +30,6 @@ public class ConnectToMongoDB {
         collection.insertOne(document);
         return profile + " has been registered";
     }
-
     public String insertIntoMongoDB(List<Student> student, String profileName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection myCollection = mongoDatabase.getCollection(profileName);
@@ -52,7 +46,6 @@ public class ConnectToMongoDB {
         }
         return  "Student has been registered";
     }
-
     public static List<User> readUserProfileFromMongoDB(){
         List<User> list = new ArrayList<User>();
         User user = new User();
@@ -72,7 +65,6 @@ public class ConnectToMongoDB {
         }
         return list;
     }
-
     public List<Student> readStudentListFromMongoDB(String profileName){
         List<Student> list = new ArrayList<Student>();
         Student student = new Student();
@@ -94,7 +86,6 @@ public class ConnectToMongoDB {
         }
         return list;
     }
-
     public static void main(String[] args){
         insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
         List<User> user = readUserProfileFromMongoDB();

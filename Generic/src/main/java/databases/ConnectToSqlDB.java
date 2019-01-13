@@ -7,11 +7,9 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-
 /**
  * Created by mrahman on 04/02/18.
  */
-
 public class ConnectToSqlDB {
 
     public static Connection connect = null;
@@ -27,7 +25,6 @@ public class ConnectToSqlDB {
         ism.close();
         return prop;
     }
-
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException {
         Properties prop = loadProperties();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");
@@ -55,7 +52,6 @@ public class ConnectToSqlDB {
         }
         return data;
     }
-
     private void close() {
         try{
             if(resultSet != null){
@@ -68,10 +64,8 @@ public class ConnectToSqlDB {
                 connect.close();
             }
         }catch(Exception e){
-
         }
     }
-
     private List<String> getResultSetData(ResultSet resultSet2, String columnName) throws SQLException {
         List<String> dataList = new ArrayList<String>();
         while(resultSet.next()){
@@ -80,7 +74,6 @@ public class ConnectToSqlDB {
         }
         return dataList;
     }
-
     public void insertDataFromArrayToSqlTable(int [] ArrayData, String tableName, String columnName)
     {
         try {
@@ -94,7 +87,6 @@ public class ConnectToSqlDB {
                 ps.setInt(1,ArrayData[n]);
                 ps.executeUpdate();
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -103,7 +95,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void insertDataFromStringToSqlTable(String ArrayData, String tableName, String columnName)
     {
         try {
@@ -119,10 +110,8 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public List<String> directDatabaseQueryExecute(String passQuery,String dataColumn)throws Exception{
         List<String> data = new ArrayList<String>();
-
         try {
             connectToSqlDatabase();
             statement = connect.createStatement();
@@ -135,7 +124,6 @@ public class ConnectToSqlDB {
         }
         return data;
     }
-
     public void insertDataFromArrayListToSqlTable(List<Student> list, String tableName, String columnName)
     {
         try {
@@ -149,7 +137,6 @@ public class ConnectToSqlDB {
                 ps.setObject(1,st);
                 ps.executeUpdate();
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -171,7 +158,6 @@ public class ConnectToSqlDB {
                 ps.setObject(1,st);
                 ps.executeUpdate();
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -180,7 +166,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2)
     {
         try {
@@ -189,8 +174,6 @@ public class ConnectToSqlDB {
                 ps.setString(1,"Ankita Sing");
                 ps.setInt(2,3590);
                 ps.executeUpdate();
-
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -199,7 +182,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public static List<User> readUserProfileFromSqlTable()throws IOException, SQLException, ClassNotFoundException{
         List<User> list = new ArrayList<>();
         User user = null;
@@ -219,7 +201,6 @@ public class ConnectToSqlDB {
                 //System.out.format("%s, %s\n", name, id);
                 user = new User(name,id, dob);
                 list.add(user);
-
             }
             st.close();
         }catch (Exception e){
@@ -228,7 +209,6 @@ public class ConnectToSqlDB {
         }
         return list;
     }
-
     public static void main(String[] args)throws IOException, SQLException, ClassNotFoundException {
         List<User> list = readUserProfileFromSqlTable();
         for(User user:list){
