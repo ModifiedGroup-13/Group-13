@@ -33,6 +33,11 @@ public class TestHoverOver extends HoverOver {
         hoverOver.checkInvestmentsAndProtection();
     }
     @Test(enabled = true)
+    public void testCreditCards () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkCreditCards();
+    }
+    @Test(enabled = true)
      public void testListOfHoverOver() throws Exception{
       TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
       hoverOver.checkListOfHoverOver();
