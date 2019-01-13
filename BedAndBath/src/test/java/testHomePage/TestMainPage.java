@@ -25,6 +25,8 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.alarWin1();
         mainPage.checkWeddingReg();
+        driver.getCurrentUrl();
+        mainPage.checkPrint();
     }
     @Test
     public void testSignin() {

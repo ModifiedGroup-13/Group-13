@@ -1,6 +1,7 @@
 package testHomePage;
 
 
+import homePage.College;
 import homePage.MainPage;
 import homePage.Products;
 import org.openqa.selenium.support.PageFactory;
@@ -11,20 +12,18 @@ import reporting.TestLogger;
 import java.util.Iterator;
 import java.util.Set;
 
-public class CollegeSearch extends Products {
-  Products mp;
+public class CollegeSearch extends College {
+College clg;
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mp = PageFactory.initElements(driver, Products.class);
+        clg = PageFactory.initElements(driver, College.class);
     }
-
     @Test
     public void popupClose() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mp.alarWin1();
+        clg.alarWin1();
     }
-
 }

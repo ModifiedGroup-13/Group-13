@@ -48,13 +48,11 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         SearchPage.sendKeys("mugs", Keys.ENTER);
-
     }
     public void checkProduct() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         Product.click();
-
     }
     public void checkPersonalizeGift()  {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

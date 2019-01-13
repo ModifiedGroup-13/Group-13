@@ -21,11 +21,14 @@ public class TestProductPage extends MainPage {
         MP.alarWin1();
         MP.checkProduct();
         MP.checkPersonalizeGift();
+        MP.checkPrint();
     }
     @Test
-    public void testviewPersonalizeGift() {
+    public void testviewPersonalizeGift()throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        MP.alarWin1();
+        MP.wait(5);
         MP.checkPersonalizeGift();
     }
 }
