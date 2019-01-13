@@ -5,9 +5,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-import static base.CommonAPI.convertToString;
-import static base.CommonAPI.driver;
-
 public class TestMainPage extends MainPage {
     MainPage mainPage;
     @BeforeMethod
@@ -17,19 +14,37 @@ public class TestMainPage extends MainPage {
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
     @Test
-    public void testviewWareHouseSavings() {
+    public void popupClose() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewWareHouseSavings();
+        mainPage.alarWin1();
     }
+    @Test
+    public void testviewWeddingReg() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.alarWin1();
+        mainPage.checkWeddingReg();
+    }
+    @Test
+    public void testSignin() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.alarWin1();
+        mainPage.checkSignIn();
+        mainPage.alarWin1();
+    }
+    @Test
+    public void testPrint() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPrint();
+    }
+    @Test
+    public void testSearchPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+       mainPage.checkSearchPage();
 
-
-
-
-
-
-
-
-
-
+    }
 }
