@@ -145,4 +145,10 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkImage();
     }
+    @Test
+    public void testRespectAddsUp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkRespectAddsUp();
+    }
 }

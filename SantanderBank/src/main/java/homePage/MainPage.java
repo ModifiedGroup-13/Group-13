@@ -217,5 +217,14 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         image.click();
     }
+    @FindBy(xpath = "//h1[@class='titpage alignC']")
+    public static WebElement RespectAddsUp;
+
+    public void checkRespectAddsUp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        RespectAddsUp.click();
+    }
 }
 
