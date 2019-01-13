@@ -28,6 +28,11 @@ public class TestHoverOver extends HoverOver {
         hoverOver.checkBorrowing();
     }
     @Test(enabled = true)
+    public void testInvestmentsAndProtection () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkInvestmentsAndProtection();
+    }
+    @Test(enabled = true)
      public void testListOfHoverOver() throws Exception{
       TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
       hoverOver.checkListOfHoverOver();

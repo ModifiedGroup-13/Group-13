@@ -31,6 +31,16 @@ public class HoverOver extends CommonAPI {
         Thread.sleep(2000);
         System.out.println(Borrowing.getText());
     }
+    public void checkInvestmentsAndProtection() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        Actions builder = new Actions(driver);
+        WebElement InvestmentsAndProtection = driver.findElement(By.xpath("//span[text()='Investments and Protection']"));
+        driver.manage().window().maximize();
+        Thread.sleep(2000);
+        builder.moveToElement(InvestmentsAndProtection).build().perform();
+        Thread.sleep(2000);
+        System.out.println(InvestmentsAndProtection.getText());
+    }
       public void checkListOfHoverOver() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         Actions builder = new Actions(driver);
