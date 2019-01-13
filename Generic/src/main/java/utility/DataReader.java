@@ -27,7 +27,6 @@ public class DataReader {
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1][numberOfCol + 1];
-
         for (int i = 1; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i);
             for (int j = 0; j < numberOfCol; j++) {
@@ -38,7 +37,6 @@ public class DataReader {
         }
         return data;
     }
-
     public String[] fileReader2(String path, int sheetIndex) throws IOException {
         String[] data = {};
         File file = new File(path);
@@ -48,7 +46,6 @@ public class DataReader {
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1];
-
         for (int i = 1; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i);
             for (int j = 0; j < numberOfCol; j++) {
@@ -68,7 +65,6 @@ public class DataReader {
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = col;
         data = new String[numberOfRows];
-
         for (int i = 0; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i + 1);
             for (int j = 0; j < numberOfCol; j++) {
@@ -79,10 +75,8 @@ public class DataReader {
         }
         return data;
     }
-
     public String getCellValue(HSSFCell cell) {
         Object value = null;
-
         int dataType = cell.getCellType();
         switch (dataType) {
             case HSSFCell.CELL_TYPE_NUMERIC:
@@ -97,14 +91,12 @@ public class DataReader {
         }
         return value.toString();
     }
-
     public void writeBack(String value) throws IOException {
         wb = new HSSFWorkbook();
         sheet = wb.createSheet();
         Row row = sheet.createRow(rowNum);
         row.setHeightInPoints(10);
-
-        fio = new FileOutputStream(new File("ExcelFile.xls"));
+        fio = new FileOutputStream(new File("ExcelFile.xlsx"));
         wb.write(fio);
         for (int i = 0; i < row.getLastCellNum(); i++) {
             row.createCell(i);

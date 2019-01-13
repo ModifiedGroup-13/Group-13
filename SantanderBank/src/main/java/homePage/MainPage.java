@@ -12,6 +12,7 @@ public class MainPage extends CommonAPI {
     public void checkSantanderLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         SantanderLogo.click();
     }
     @FindBy(xpath = "//input[@type ='text' and @id = '_P001_Header_WAR_P001_Headerportlet_search']")
@@ -20,6 +21,7 @@ public class MainPage extends CommonAPI {
     public void checkSearchBox() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         SearchBox.click();
     }
     @FindBy(xpath = "//a[text()='Personal']")
@@ -28,6 +30,7 @@ public class MainPage extends CommonAPI {
     public void checkPersonal() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         Personal.click();
     }
     @FindBy(xpath = "//a[text()='Business' and @class='txtOpts ']")
@@ -36,6 +39,7 @@ public class MainPage extends CommonAPI {
     public void checkBusiness() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         Business.click();
     }
     @FindBy(xpath = "//a[text()='Commercial']")
@@ -44,95 +48,119 @@ public class MainPage extends CommonAPI {
     public void checkCommercial() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         Commercial.click();
     }
     @FindBy(xpath = "//a[text()='About' and @class='txtOpts ']")
-    public static WebElement viewAbout;
+    public static WebElement About;
 
-    public void checkviewAbout() {
+    public void checkAbout() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewAbout.click();
+        driver.manage().window().maximize();
+        About.click();
     }
+    @FindBy(xpath = "//img[@class='image_full']")
+    public static WebElement Fullimage;
 
-    @FindBy(xpath = "//h1[@class='titpage alignC']")
-    public static WebElement viewSantanderCommercialBanking;
+    public void checkFullImage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        Fullimage.click();
+    }
+    @FindBy(xpath = "//span[contains(text(),'Login')]")
+    public static WebElement Login;
 
-    public void checkviewSantanderCommercialBanking() {
+    public void checkLogin() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewSantanderCommercialBanking.click();
+        driver.manage().window().maximize();
+        Login.click();
+    }
+    @FindBy(xpath = "//h1[@class='titpage alignC']")
+    public static WebElement SantanderCommercialBanking;
+
+    public void checkSantanderCommercialBanking() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        SantanderCommercialBanking.click();
     }
 
     @FindBy(xpath = "//span[text()='Banking']")
-    public static WebElement viewBanking;
+    public static WebElement Banking;
 
-    public void checkviewBanking() {
+    public void checkBanking() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewBanking.click();
+        driver.manage().window().maximize();
+        Banking.click();
     }
 
-    @FindBy(xpath = " //span[text()='Borrowing']")
-    public static WebElement viewBorrowing;
+    @FindBy(xpath = "//span[text()='Borrowing']")
+    public static WebElement Borrowing;
 
-    public void checkviewBorrowing() {
+    public void checkBorrowing() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewBorrowing.click();
+        driver.manage().window().maximize();
+        Borrowing.click();
     }
 
     @FindBy(xpath = " //span[text()='Investments and Protection']")
-    public static WebElement viewInvestmentsAndProtection;
+    public static WebElement InvestmentsAndProtection;
 
-    public void checkviewInvestmentsAndProtection() {
+    public void checkInvestmentsAndProtection() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewInvestmentsAndProtection.click();
+        driver.manage().window().maximize();
+        InvestmentsAndProtection.click();
     }
 
     @FindBy(xpath = " //span[text()='Credit Cards']")
-    public static WebElement viewCreditCards;
+    public static WebElement CreditCards;
 
-    public void checkviewCreditCards() {
+    public void checkCreditCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewCreditCards.click();
+        driver.manage().window().maximize();
+        CreditCards.click();
     }
-
     @FindBy(xpath = "//span[text()='Prosper and Thrive']")
-    public static WebElement viewProsperAndThrive;
+    public static WebElement ProsperAndThrive;
 
-    public void checkviewProsperAndThrive() {
+    public void checkProsperAndThrive() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewProsperAndThrive.click();
+        driver.manage().window().maximize();
+        ProsperAndThrive.click();
     }
-
     @FindBy(xpath = "//a[text() = 'ATM/Branch Locator']")
-    public static WebElement viewATMBranchLocator;
+    public static WebElement ATMBranchLocator;
 
-    public void checkviewATMBranchLocator() {
+    public void checkATMBranchLocator() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        viewATMBranchLocator.click();
+        driver.manage().window().maximize();
+        ATMBranchLocator.click();
     }
-
     @FindBy(xpath = "//a[@class='button01 trk-btn']")
     public static WebElement findALocationNearYou;
 
     public void checkFindALocationNearYou() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         findALocationNearYou.click();
     }
-
     @FindBy(xpath = "//h4[text()='Contact Us']")
     public static WebElement contactUs;
 
     public void checkContactUs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         contactUs.click();
     }
     @FindBy(xpath = "//h4[text()='Privacy Policy']")
@@ -141,6 +169,7 @@ public class MainPage extends CommonAPI {
     public void checkPrivacyPolicy() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         privacyPolicy.click();
     }
     @FindBy(xpath = "//h4[text()='Terms of Use']")
@@ -149,6 +178,7 @@ public class MainPage extends CommonAPI {
     public void checkTermsOfUse() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         termsOfUse.click();
     }
     @FindBy(xpath = "//h4[text()='Home']")
@@ -157,6 +187,7 @@ public class MainPage extends CommonAPI {
     public void checkHome() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         home.click();
     }
     @FindBy(xpath = "//p[contains(text(),'Useful Links and Documents')]")
@@ -165,6 +196,7 @@ public class MainPage extends CommonAPI {
     public void checkUsefulLinksAndDocuments() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         UsefulLinksAndDocuments.click();
     }
     @FindBy(xpath = "//a[@href='#Checking']")
@@ -173,6 +205,34 @@ public class MainPage extends CommonAPI {
     public void checkChecking() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
         }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
         Checking.click();
+    }
+    @FindBy(xpath = "//img[@class='image']")
+    public static WebElement image;
+
+    public void checkImage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        image.click();
+    }
+    @FindBy(xpath = "//h1[@class='titpage alignC']")
+    public static WebElement RespectAddsUp;
+
+    public void checkRespectAddsUp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        RespectAddsUp.click();
+    }
+    @FindBy(xpath = "//span[contains(text(),'FAQs')]")
+    public static WebElement FAQs;
+
+    public void checkFAQs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        FAQs.click();
     }
 }

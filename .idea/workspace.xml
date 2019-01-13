@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
     </list>
@@ -28,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
+            <state relative-caret-position="253">
+              <caret line="238" selection-start-line="238" selection-end-line="238" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +38,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="307">
+              <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,9 +88,7 @@
         <option value="$PROJECT_DIR$/TMobile/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/BedAndBath/pom.xml" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
         <option value="$PROJECT_DIR$/Facebook/pom.xml" />
-        <option value="$PROJECT_DIR$/SantanderBank/pom.xml" />
         <option value="$PROJECT_DIR$/TMobile/pom.xml" />
         <option value="$PROJECT_DIR$/SprintMobile/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -89,6 +97,24 @@
         <option value="$PROJECT_DIR$/BedAndBath/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOber.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/Search.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/SantanderBank/pom.xml" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestSearch.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMySqlConnection.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MySqlConnection.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java" />
@@ -96,6 +122,11 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -108,14 +139,10 @@
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
-    <option name="y" value="2" />
-    <option name="width" value="1386" />
-    <option name="height" value="788" />
+    <option name="width" value="1361" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,14 +150,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
               <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Group-13" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Group-13" type="b2602c69:ProjectViewProjectNode" />
@@ -198,8 +260,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547256256024" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547365889541" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SRoy/Web-Automation-FrameWork" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -239,8 +301,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testChecking">
-    <configuration name="TestMainPage.testBusiness" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testFAQs">
+    <configuration name="TestMainPage.testFAQs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -250,7 +312,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testBusiness" />
+      <option name="METHOD_NAME" value="testFAQs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -258,7 +320,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testChecking" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testFullImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -268,7 +330,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testChecking" />
+      <option name="METHOD_NAME" value="testFullImage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -276,7 +338,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testCommercial" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testImage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -286,7 +348,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testCommercial" />
+      <option name="METHOD_NAME" value="testImage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -294,7 +356,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testPersonal" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -304,7 +366,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testPersonal" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -312,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testRespectAddsUp" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SantanderBank" />
       <extension name="coverage">
         <pattern>
@@ -322,7 +384,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testSearchBox" />
+      <option name="METHOD_NAME" value="testRespectAddsUp" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -332,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testChecking" />
-        <item itemvalue="TestNG.TestMainPage.testPersonal" />
-        <item itemvalue="TestNG.TestMainPage.testCommercial" />
-        <item itemvalue="TestNG.TestMainPage.testBusiness" />
-        <item itemvalue="TestNG.TestMainPage.testSearchBox" />
+        <item itemvalue="TestNG.TestMainPage.testFAQs" />
+        <item itemvalue="TestNG.TestMainPage.testRespectAddsUp" />
+        <item itemvalue="TestNG.TestMainPage.testFullImage" />
+        <item itemvalue="TestNG.TestMainPage.testLogin" />
+        <item itemvalue="TestNG.TestMainPage.testImage" />
       </list>
     </recent_temporary>
   </component>
@@ -354,42 +416,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.11 at 18h 27m 02s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testCreditCards - 2019.01.13 at 00h 15m 55s.xml">
+      <configuration name="TestHoverOver.testCreditCards" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 18h 33m 36s.xml">
-      <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testProsperAndThrive - 2019.01.13 at 00h 21m 24s.xml">
+      <configuration name="TestHoverOver.testProsperAndThrive" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.11 at 19h 24m 51s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testProsperAndThrive - 2019.01.13 at 00h 22m 11s.xml">
+      <configuration name="TestHoverOver.testProsperAndThrive" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSantanderLogo - 2019.01.11 at 19h 28m 06s.xml">
-      <configuration name="TestMainPage.testSantanderLogo" configurationId="TestNG" />
+    <history-entry file="TestHoverOver_testProsperAndThrive - 2019.01.13 at 00h 24m 09s.xml">
+      <configuration name="TestHoverOver.testProsperAndThrive" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSantanderLogo - 2019.01.11 at 19h 46m 12s.xml">
-      <configuration name="TestMainPage.testSantanderLogo" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testImage - 2019.01.13 at 02h 12m 34s.xml">
+      <configuration name="TestMainPage.testImage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testSearchBox - 2019.01.11 at 19h 47m 19s.xml">
-      <configuration name="TestMainPage.testSearchBox" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testLogin - 2019.01.13 at 02h 23m 27s.xml">
+      <configuration name="TestMainPage.testLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 19h 48m 00s.xml">
-      <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testFullImage - 2019.01.13 at 02h 34m 03s.xml">
+      <configuration name="TestMainPage.testFullImage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testBusiness - 2019.01.11 at 19h 50m 07s.xml">
-      <configuration name="TestMainPage.testBusiness" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testFullImage - 2019.01.13 at 02h 36m 02s.xml">
+      <configuration name="TestMainPage.testFullImage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testCommercial - 2019.01.11 at 19h 51m 05s.xml">
-      <configuration name="TestMainPage.testCommercial" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testRespectAddsUp - 2019.01.13 at 02h 43m 08s.xml">
+      <configuration name="TestMainPage.testRespectAddsUp" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testPersonal - 2019.01.11 at 19h 56m 21s.xml">
-      <configuration name="TestMainPage.testPersonal" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testRespectAddsUp - 2019.01.13 at 02h 44m 33s.xml">
+      <configuration name="TestMainPage.testRespectAddsUp" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="2" width="1386" height="788" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19457014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19515885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -398,48 +460,27 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.221519" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.25510204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30952382" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.38265306" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32733223" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3265306" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.19909503" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.08698941" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/parser/Student.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -453,12 +494,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/src/test/java/testHomePage/TestMainPage.java" />
@@ -481,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-53">
           <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -569,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Costco/src/test/resources/CostcoTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -593,34 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5212">
-          <caret line="51" column="105" selection-start-line="51" selection-start-column="105" selection-end-line="51" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,10 +638,208 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="39" column="54" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="145" selection-start-line="35" selection-start-column="145" selection-end-line="35" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="56" column="102" selection-start-line="56" selection-start-column="102" selection-end-line="56" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MySqlConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="118" column="20" lean-forward="true" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1600#1608#0" expanded="true" />
+            <element signature="e#2484#2492#0" expanded="true" />
+            <element signature="e#4342#4350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMySqlConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="100" lean-forward="true" selection-start-line="12" selection-start-column="100" selection-end-line="12" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="50" column="64" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="307">
+          <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -7,7 +7,6 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class TestMainPage extends MainPage {
-
     MainPage mainPage;
     @BeforeMethod
     public void initialize() {
@@ -45,52 +44,58 @@ public class TestMainPage extends MainPage {
         mainPage.checkCommercial();
     }
     @Test
-    public void testviewAbout() {
+    public void testAbout() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewAbout();
+        mainPage.checkAbout();
     }
-
     @Test
-    public void testviewSantanderCommercialBanking() {
+    public void testFullImage() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewSantanderCommercialBanking();
+        mainPage.checkFullImage();
     }
-
     @Test
-    public void testviewBorrowing() {
+    public void testLogin() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewBorrowing();
+        mainPage.checkLogin();
     }
-
     @Test
-    public void testviewBanking() {
+    public void testSantanderCommercialBanking() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewBanking();
+        mainPage.checkSantanderCommercialBanking();
     }
-
     @Test
-    public void testviewCreditCards() {
+    public void testBorrowing() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewCreditCards();
+        mainPage.checkBorrowing();
     }
-
     @Test
-    public void testviewProsperAndThrive() {
+    public void testBanking() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewProsperAndThrive();
+        mainPage.checkBanking();
     }
-
     @Test
-    public void testviewATMBranchLocator() {
+    public void testCreditCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkviewATMBranchLocator();
+        mainPage.checkCreditCards();
+    }
+    @Test
+    public void testProsperAndThrive() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkProsperAndThrive();
+    }
+    @Test
+    public void testATMBranchLocator() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkATMBranchLocator();
     }
     @Test
     public void testFindALocationNearYou() {
@@ -134,5 +139,22 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkChecking();
     }
-
+    @Test
+    public void testImage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkImage();
+    }
+    @Test
+    public void testRespectAddsUp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkRespectAddsUp();
+    }
+    @Test
+    public void testFAQs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFAQs();
+    }
 }

@@ -188,7 +188,6 @@ public class ConnectDB {
                 ps.executeUpdate();
                 //System.out.println(list[n]);
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -198,6 +197,5 @@ public class ConnectDB {
         }
         //connection = ConnectionConfiguration.getConnection();
     }
-
 }
 
