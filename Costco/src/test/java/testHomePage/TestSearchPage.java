@@ -18,17 +18,15 @@ public class TestSearchPage extends SearchPage {
     @BeforeMethod
     public void initialize() {
         TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchPage = PageFactory.initElements(driver, SearchPage.class);
-    }
+        searchPage = PageFactory.initElements(driver, SearchPage.class); }
     @Test
     public void testSearchENTERKeyword(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchByENTERKeyword(keys);
-    }
+        searchByENTERKeyword(keys); }
     @Test
     public void testSearchBySubmitButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchBySubmitButton(keys);
-    }
+        searchBySubmitButton(keys); }
+
 }
 

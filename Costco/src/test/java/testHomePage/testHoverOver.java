@@ -14,33 +14,27 @@ public class testHoverOver extends HoverOver {
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver = PageFactory.initElements(driver, HoverOver.class);
-    }
+        hoverOver = PageFactory.initElements(driver, HoverOver.class); }
     @Test(enabled = true, priority =1)
     public void testgroery () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver.checkgroery();
-    }
+        hoverOver.checkGroery(); }
     @Test(enabled = true, priority =2)
     public void testbusinessdelivery () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver.checkbusinessdelivery();
-    }
+        hoverOver.checkBusinessDelivery(); }
     @Test(enabled = true, priority =3)
-    public void testoptical () throws InterruptedException {
+    public void testOptical () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver.checkoptical();
-    }
+        hoverOver.checkOptical(); }
     @Test(enabled = true, priority =4)
-    public void testpharmacy () throws InterruptedException {
+    public void testPharmacy () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver.checkpharmacy();
-    }
+        hoverOver.checkPharmacy(); }
     @Test(enabled = true, priority = 4)
-    public void testmembership () throws InterruptedException {
+    public void testMembership () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        hoverOver.checkmembership();
-    }
+        hoverOver.checkMembership(); }
 
 
 

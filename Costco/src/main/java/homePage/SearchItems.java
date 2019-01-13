@@ -9,7 +9,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import reporting.TestLogger;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,8 +26,7 @@ public class SearchItems extends CommonAPI {
         itemList.add("Honey");
         itemList.add("Rice");
         itemList.add("Salt");
-        return itemList;
-    }
+        return itemList; }
     public static WebElement getSearchField() {
         return searchField;
     }
@@ -45,13 +43,11 @@ public class SearchItems extends CommonAPI {
         List<String> itemList = getItemsList();
         for(int i=0; i<itemList.size(); i++) {
             getSearchField().sendKeys(itemList.get(i));
-            getSubmitButton().click();
-        }
+            getSubmitButton().click(); }
     }
     public void searchItemsByENTERKeyword()throws InterruptedException, IOException {
         List<String> itemList = getItemsList();
         for(String st: itemList) {
-            getSearchField().sendKeys(st, Keys.ENTER);
-        }
+            getSearchField().sendKeys(st, Keys.ENTER); }
     }
 }
