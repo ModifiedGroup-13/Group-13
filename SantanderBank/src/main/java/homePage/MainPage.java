@@ -60,7 +60,15 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         About.click();
     }
+    @FindBy(xpath = "//span[contains(text(),'Login')]")
+    public static WebElement Login;
 
+    public void checkLogin() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        Login.click();
+    }
     @FindBy(xpath = "//h1[@class='titpage alignC']")
     public static WebElement SantanderCommercialBanking;
 
