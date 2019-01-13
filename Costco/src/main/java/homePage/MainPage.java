@@ -68,121 +68,91 @@ public class MainPage extends CommonAPI {
 
     public void checkviewWareHouseSavings(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        viewWareHouseSavings.click();
-    }
+        viewWareHouseSavings.click(); }
     public void checkFindaWarehouse(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        FindaWarehouse.click();
-    }
+        FindaWarehouse.click(); }
     public void checkGetEmailOffers(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        GetEmailOffers.click();
-    }
+        GetEmailOffers.click(); }
     public void checkCustomerService(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        CustomerService.click();
-    }
+        CustomerService.click(); }
     public void checkus(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        us.click();
-    }
+        us.click(); }
     public void checkLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        logo.click();
-    }
+        logo.click(); }
     public void checkAll(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        All.click();
-    }
+        All.click(); }
     public void checkSearch(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        search.click();
-    }
+        search.click(); }
     public void checkSignInRegister(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        SignInRegister.click();
-    }
+        SignInRegister.click(); }
     public void checkCart(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Cart.click();
-    }
+        Cart.click(); }
     public void checkGrocery(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Grocery.click();
-    }
+        Grocery.click(); }
     public void checkShopAllDepartment(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Grocery.click();
-    }
+        Grocery.click(); }
     public void checkBusinessDelivery(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        BusinessDelivery.click();
-    }
+        BusinessDelivery.click(); }
     public void checkOptical(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Optical.click();
-    }
+        Optical.click(); }
     public void checkPharmacy(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Pharmacy.click();
-    }
+        Pharmacy.click(); }
     public void checkServices(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Services.click();
-    }
+        Services.click(); }
     public void checkPhoto(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Photo.click();
-    }
+        Photo.click(); }
     public void checkTravel(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Travel.click();
-    }
+        Travel.click(); }
     public void checkMembership(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Membership.click();
-    }
+        Membership.click(); }
     public void checkLocation(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        Location.click();
-    }
+        Location.click(); }
     public void customerService(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        customerService.click();
-    }
+        customerService.click(); }
     public void getHelp(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        getHelp.click();
-    }
+        getHelp.click(); }
     public void findaWarehouse(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        findaWarehouse.click();
-    }
-
+        findaWarehouse.click(); }
     public void getGetEmailOffers(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        getGetEmailOffers.click();
-    }
+        getGetEmailOffers.click(); }
     public void cityStateZip(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        cityStateZip.click();
-    }
+        cityStateZip.click(); }
     public void enterYourEmail(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        enterYourEmail.click();
-    }
+        enterYourEmail.click(); }
     public void followUs(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        followUs.click();
-    }
+        followUs.click(); }
     public void facebookLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        facebookLogo.click();
-    }
+        facebookLogo.click(); }
     public void pLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        pLogo.click();
-    }
+        pLogo.click(); }
 
 
 

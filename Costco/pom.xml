@@ -34,7 +34,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>target/test-classes/AmazonTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>C:\Users\nafas\Desktop\sohag\Group-13\Costco\target\test-classes\CostcoTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

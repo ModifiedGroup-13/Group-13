@@ -49,7 +49,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.costco.com/") String url)throws IOException {
 //for single test, put your web address on line 52, while push just keep the quotation, remove url
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
@@ -65,7 +65,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
 
     }
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Costco Automation Script]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="Windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="60.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.costco.com/"/>
+  <test thread-count="5" name="Costco Home(failed)" verbose="0">
+    <classes>
+      <class name="testHomePage.TestMainPage">
+        <methods>
+          <include name="testviewWareHouseSavings"/>
+          <include name="testFindaWarehouse"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testLocation"/>
+          <include name="testOptical"/>
+          <include name="testServices"/>
+          <include name="testAll"/>
+          <include name="extentSetup"/>
+          <include name="testGrocery"/>
+          <include name="testShopAllDepartment"/>
+          <include name="testPhoto"/>
+          <include name="testCart"/>
+          <include name="testBusinessDelivery"/>
+          <include name="testSignInRegister"/>
+          <include name="getHelp"/>
+          <include name="testus"/>
+          <include name="testMembership"/>
+          <include name="setUp"/>
+          <include name="pLog"/>
+          <include name="testTravel"/>
+          <include name="testLogo"/>
+          <include name="testSearch"/>
+          <include name="testCustomerService"/>
+          <include name="testPharmacy"/>
+          <include name="testGetEmailOffers"/>
+          <include name="pLogo"/>
+          <include name="startExtent"/>
+          <include name="initElements"/>
+          <include name="generateReport"/>
+          <include name="getGetEmailOffers"/>
+        </methods>
+      </class> <!-- testHomePage.TestMainPage -->
+    </classes>
+  </test> <!-- Costco Home(failed) -->
+</suite> <!-- Failed suite [Costco Automation Script] -->
