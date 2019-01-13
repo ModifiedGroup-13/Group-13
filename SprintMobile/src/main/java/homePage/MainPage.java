@@ -64,6 +64,10 @@ public class MainPage extends CommonAPI {
     public static WebElement Motorola ;
     @FindBy(xpath = "//a[contains(@href,'/en/shop/cell-phones/samsung-galaxy-note9.html?INTCID=HP:PROS:B:phones:SGN9')]//figure[contains(@class,'soar-selection--simple')]//picture//img[contains(@class,'ui-image__file--responsive')]")
     public static WebElement SamsungGalaxyNote9 ;
+    @FindBy(xpath = "//div[contains(@class,'text-center')]//span[contains(text(),'Shop Today')]")
+    public static WebElement ShopTodayGalaxyS9 ;
+    @FindBy(xpath = "//div[contains(@class,'mt-40')]//div[contains(@class,'center-xs start-md')]//span[contains(text(),'Call 1-844-812-0613')]")
+    public static WebElement Call ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -212,5 +216,15 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         SamsungGalaxyNote9.click();
+    }
+    public void checkCall() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Call.click();
+    }
+    public void checkShopTodayGalaxyS9() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ShopTodayGalaxyS9.click();
     }
 }

@@ -161,4 +161,14 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkSamsungGalaxyNote9 ();
     }
+    @Test
+    public void testShopTodayGalaxyS9(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSamsungGalaxyNote9 ();
+    }
+    @Test
+    public void testCall(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCall ();
+    }
 }
