@@ -14,8 +14,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BedAndBath" target="1.8" />
+      <module name="Costco" target="1.8" />
       <module name="Facebook" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="Group-13" target="1.8" />
+      <module name="SantanderBank" target="1.8" />
       <module name="Santanderbank" target="1.8" />
+      <module name="SprintMobile" target="1.8" />
       <module name="TMobile" target="1.8" />
     </bytecodeTargetLevel>
   </component>
