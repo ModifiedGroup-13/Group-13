@@ -29,6 +29,8 @@
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$28.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$29.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$31.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$6.class" afterDir="false" />
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+            <state relative-caret-position="99">
+              <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,7 +250,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547348596975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547351059640" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -289,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testCall">
+  <component name="RunManager" selected="TestNG.TestMainPage.testGalaxyTab">
     <configuration name="TestHoverOver.testActivate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
@@ -308,42 +310,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHoverOver.testMySprint" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SprintMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
-      <option name="METHOD_NAME" value="testMySprint" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHoverOver.testSupport" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SprintMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
-      <option name="METHOD_NAME" value="testSupport" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMainPage.testCall" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
@@ -355,6 +321,42 @@
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
       <option name="METHOD_NAME" value="testCall" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testGalaxyTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testGalaxyTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testGalaxyWatch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testGalaxyWatch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -382,11 +384,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testGalaxyTab" />
+        <item itemvalue="TestNG.TestMainPage.testGalaxyWatch" />
         <item itemvalue="TestNG.TestMainPage.testCall" />
         <item itemvalue="TestNG.TestMainPage.testShopTodayGalaxyS9" />
         <item itemvalue="TestNG.TestHoverOver.testActivate" />
-        <item itemvalue="TestNG.TestHoverOver.testMySprint" />
-        <item itemvalue="TestNG.TestHoverOver.testSupport" />
       </list>
     </recent_temporary>
   </component>
@@ -402,17 +404,11 @@
       <updated>1547221930947</updated>
       <workItem from="1547244161640" duration="19087000" />
       <workItem from="1547267836333" duration="1228000" />
-      <workItem from="1547305967041" duration="14545000" />
+      <workItem from="1547305967041" duration="16200000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHoverOver_testSupport - 2019.01.12 at 20h 44m 45s.xml">
-      <configuration name="TestHoverOver.testSupport" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver_testShopDevices - 2019.01.12 at 20h 51m 56s.xml">
-      <configuration name="TestHoverOver.testShopDevices" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 20h 52m 26s.xml">
       <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
     </history-entry>
@@ -437,9 +433,15 @@
     <history-entry file="TestMainPage_testShopTodayGalaxyS9 - 2019.01.12 at 21h 58m 07s.xml">
       <configuration name="TestMainPage.testShopTodayGalaxyS9" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testCall - 2019.01.12 at 22h 03m 42s.xml">
+      <configuration name="TestMainPage.testCall" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testGalaxyWatch - 2019.01.12 at 22h 12m 05s.xml">
+      <configuration name="TestMainPage.testGalaxyWatch" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34860000" />
+    <option name="totallyTimeSpent" value="36515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -745,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="172" column="5" selection-start-line="172" selection-start-column="5" selection-end-line="172" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -755,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="69" column="48" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        <state relative-caret-position="99">
+          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

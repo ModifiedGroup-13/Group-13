@@ -68,6 +68,10 @@ public class MainPage extends CommonAPI {
     public static WebElement ShopTodayGalaxyS9 ;
     @FindBy(xpath = "//div[contains(@class,'mt-40')]//div[contains(@class,'center-xs start-md')]//span[contains(text(),'Call 1-844-812-0613')]")
     public static WebElement Call ;
+    @FindBy(xpath = "//div[contains(@class,'col-md-auto py-20 border-right-md border--ash pr-md-40 text-center text-left-lg')]//a[contains(@title,'Shop Now')]")
+    public static WebElement GalaxyWatch ;
+    @FindBy(xpath = "//div[contains(@class,'col-md-auto py-20 border-top border-none-md border--ash pl-md-40 text-center text-left-lg')]//a[contains(@title,'Call 1-844-812-0613')]")
+    public static WebElement GalaxyTab ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -226,5 +230,15 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         ShopTodayGalaxyS9.click();
+    }
+    public void checkGalaxyWatch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        GalaxyWatch.click();
+    }
+    public void checkGalaxyTab() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        GalaxyTab.click();
     }
 }
