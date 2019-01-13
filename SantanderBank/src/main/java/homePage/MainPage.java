@@ -81,7 +81,7 @@ public class MainPage extends CommonAPI {
         Banking.click();
     }
 
-    @FindBy(xpath = " //span[text()='Borrowing']")
+    @FindBy(xpath = "//span[text()='Borrowing']")
     public static WebElement Borrowing;
 
     public void checkBorrowing() {
