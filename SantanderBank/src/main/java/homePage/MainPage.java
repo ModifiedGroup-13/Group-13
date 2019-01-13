@@ -226,5 +226,13 @@ public class MainPage extends CommonAPI {
         driver.manage().window().maximize();
         RespectAddsUp.click();
     }
-}
+    @FindBy(xpath = "//span[contains(text(),'FAQs')]")
+    public static WebElement FAQs;
 
+    public void checkFAQs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){
+        }.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        FAQs.click();
+    }
+}
