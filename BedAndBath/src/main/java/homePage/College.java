@@ -1,12 +1,8 @@
 package homePage;
-
 import base.BaseUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-
-import static base.BaseUtil.convertToString;
-
 public class College extends BaseUtil {
     @FindBy(css = ".rclCloseBtnWrapper")
     public static WebElement ClosePopUp;

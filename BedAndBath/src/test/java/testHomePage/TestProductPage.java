@@ -24,7 +24,7 @@ public class TestProductPage extends MainPage {
         MP.checkPrint();
     }
     @Test
-    public void testviewPersonalizeGift()throws Exception {
+    public void testViewPersonalizeGift()throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         MP.alarWin1();
