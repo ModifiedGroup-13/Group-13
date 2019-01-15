@@ -33,7 +33,7 @@ public class Search extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
       //  waitToBeVisible();
         driver.manage().window().maximize();
-        searchField.sendKeys(searchKeys);//have question
+        searchField.sendKeys(searchKeys);
         submitButton.click();
     }
 }
