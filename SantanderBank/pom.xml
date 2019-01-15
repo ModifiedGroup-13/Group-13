@@ -33,7 +33,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>C:\Users\Manir\Desktop\GroupProject\Group-13\SantanderBank\target\test-classes\SantanderBankTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>target\test-classes\SantanderBankTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
