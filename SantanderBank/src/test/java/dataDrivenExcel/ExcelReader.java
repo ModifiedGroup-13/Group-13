@@ -18,7 +18,7 @@ public class ExcelReader extends CommonAPI {
 
 
             public static void main (String[]args) throws IOException {
-                File excelFile = new File("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\main\\java\\dataDrivenExcel\\Book1.xlsx");
+                File excelFile = new File("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\test\\java\\dataDrivenExcel\\Book1.xlsx");
                 FileInputStream fileInputStream = new FileInputStream(excelFile);
                 XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);
                 XSSFSheet sheet1 = workbook.getSheetAt(0);
@@ -38,8 +38,9 @@ public class ExcelReader extends CommonAPI {
                 driver.get("https://www.santanderbank.com/us/personal");
                 driver.findElement(By.xpath("//span[contains(text(),'Login')]"));
                 driver.manage().window().maximize();
-                login.sendKeys(Keys.ENTER);
+                login.click();
                 driver.findElement(By.xpath("//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.alias']")).sendKeys("data0");
                 driver.findElement(By.xpath("//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.pwd']")).sendKeys("data1");
+                driver.close();
             }
 }
