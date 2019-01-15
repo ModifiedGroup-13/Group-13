@@ -1,30 +1,28 @@
-package testHomePage;
+package TestSignIn;
 
-
-import homePage.MainPage;
-import homePage.Products;
+import homePage.College;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+import userSignIn.SignIn;
 
-import java.util.Iterator;
-import java.util.Set;
-
-public class CollegeSearch extends Products {
-  Products mp;
+public class TestSignIn extends SignIn {
+    SignIn si;
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mp = PageFactory.initElements(driver, Products.class);
+        si = PageFactory.initElements(driver, SignIn.class);
     }
-
     @Test
-    public void popupClose() {
+    public void checkSignIn(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mp.alarWin1();
-    }
+        si.alarWin1();
+        si.checksignIn();
+        si.alarWin1();
+        si.checkclickOnSignIn();
 
+    }
 }

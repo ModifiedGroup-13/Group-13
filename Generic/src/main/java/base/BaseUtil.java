@@ -165,7 +165,6 @@ public class BaseUtil {
         }
         driver.quit();
     }
-
     public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
@@ -209,6 +208,29 @@ public class BaseUtil {
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
+    public void navigateBack(){
+        driver.navigate().back();
+    }
+    public List<WebElement> getListofWebElementsByCss(String locator) {
+        ArrayList list = new ArrayList<>();
+        list = (ArrayList) driver.findElements(By.cssSelector(locator));
+        return list;
+    }
+    public List<WebElement> getListofWebElementsByXpath(String locator){
+        ArrayList list = new ArrayList<>();
+        list = (ArrayList) driver.findElements(By.xpath(locator));
+        return list;
+    }
+    public void navigateFroward(){
+        driver.navigate().forward();
+    }
+    public String getCurrentPageUrl(){
+        String url = driver.getCurrentUrl();
+        return url;
+    }
+    public void getTextByCss(String locator){
+        String st = driver.findElement(By.cssSelector(locator)).getText();
+    }
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
         webElement.sendKeys(value + Keys.ENTER);
     }
@@ -217,6 +239,13 @@ public class BaseUtil {
     }
     public void clearInputBox(WebElement webElement){
         webElement.clear();
+    }
+    public String getTextById(String locator){
+        return driver.findElement(By.id(locator)).getText();
+    }
+    public String getTextByName(String locator){
+        String st = driver.findElement(By.name(locator)).getText();
+        return st;
     }
     public static void sleepFor(int sec)throws InterruptedException {
         Thread.sleep(sec * 3000);
@@ -229,6 +258,4 @@ public class BaseUtil {
         }
         return text;
     }
-
-
 }

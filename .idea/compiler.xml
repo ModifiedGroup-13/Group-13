@@ -11,6 +11,7 @@
         <module name="Generic" />
         <module name="SantanderBank" />
         <module name="SprintMobile" />
+        <module name="W3school" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="Santanderbank" target="1.8" />
       <module name="SprintMobile" target="1.8" />
       <module name="TMobile" target="1.8" />
+      <module name="W3school" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
