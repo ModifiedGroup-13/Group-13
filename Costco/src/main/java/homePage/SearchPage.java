@@ -1,5 +1,6 @@
 package homePage;
 
+import Helper.ExcellReader;
 import base.BaseUtil;
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
@@ -25,4 +26,7 @@ public class SearchPage extends CommonAPI {
         searchField.sendKeys(searchKeys);
         submitButton.click();
     }
-}
+
+    }
+
+

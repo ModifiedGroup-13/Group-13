@@ -1,5 +1,6 @@
 package homePage;
 
+import Helper.ExcellReader;
 import base.BaseUtil;
 import base.CommonAPI;
 import com.google.api.services.sheets.v4.Sheets;
@@ -45,9 +46,6 @@ public class SearchItems extends CommonAPI {
             getSearchField().sendKeys(itemList.get(i));
             getSubmitButton().click(); }
     }
-    public void searchItemsByENTERKeyword()throws InterruptedException, IOException {
-        List<String> itemList = getItemsList();
-        for(String st: itemList) {
-            getSearchField().sendKeys(st, Keys.ENTER); }
-    }
+
+
 }

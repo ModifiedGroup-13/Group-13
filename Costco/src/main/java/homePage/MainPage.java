@@ -1,10 +1,9 @@
 package homePage;
-
+import Helper.ExcellReader;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-
 public class MainPage extends CommonAPI {
     @FindBy(id = "warehouse-savings")
     public static WebElement viewWareHouseSavings;
@@ -155,7 +154,7 @@ public class MainPage extends CommonAPI {
         pLogo.click(); }
 
 
+    }
 
 
 
-}

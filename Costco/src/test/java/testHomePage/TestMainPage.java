@@ -1,10 +1,13 @@
 package testHomePage;
-
+import databases.ConnectToSqlDB;
 import homePage.MainPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+
+import java.io.IOException;
+import java.sql.SQLException;
 
 public class TestMainPage extends MainPage {
 
@@ -15,7 +18,9 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class); }
     @Test
-    public void testviewWareHouseSavings() {
+    public void testviewWareHouseSavings() throws SQLException, IOException, ClassNotFoundException {
+//        ConnectToSqlDB connect = new ConnectToSqlDB();
+//        connect.connectToSqlDatabase();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkviewWareHouseSavings(); }

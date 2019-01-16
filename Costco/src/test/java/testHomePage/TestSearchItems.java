@@ -19,6 +19,8 @@ public class TestSearchItems extends SearchItems {
     public void testSearchItemsByENTERKeyword() throws IOException, InterruptedException {
         searchItems = PageFactory.initElements(driver, SearchItems.class);
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchItems.searchItemsByENTERKeyword();
+        searchItems.searchItemsBySubmitButton();
     }
+
+
 }

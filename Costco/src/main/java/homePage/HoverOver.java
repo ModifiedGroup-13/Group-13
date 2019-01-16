@@ -1,15 +1,9 @@
 package homePage;
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
 import reporting.TestLogger;
-import java.util.ArrayList;
-import java.util.List;
-
 public class HoverOver extends CommonAPI {
     public void checkGroery() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
