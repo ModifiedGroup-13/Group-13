@@ -52,7 +52,8 @@ public class TestMainPage extends MainPage {
     public void testSearchPage() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        mainPage.alarWin1();
         mainPage.checkSearchPage();
-
+        mainPage.alarWin1();
     }
 }

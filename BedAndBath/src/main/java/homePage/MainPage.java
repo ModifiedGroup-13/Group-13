@@ -19,6 +19,9 @@ public class MainPage extends BaseUtil {
     public static WebElement Product;
     @FindBy(id = "tabPanel0")
     public static WebElement PersonalizeGift;
+
+
+
     @FindBy(css = "#rclModal > button")
     public static WebElement alertWin;
 
@@ -49,7 +52,8 @@ public class MainPage extends BaseUtil {
     public void checkSearchPage() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        SearchPage.sendKeys("mugs", Keys.ENTER);
+        SearchPage.sendKeys("bedsheet", Keys.ENTER);
+        SearchPage.sendKeys("towel",Keys.ENTER);
     }
 
     public void checkProduct() {
