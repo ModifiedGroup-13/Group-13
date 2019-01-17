@@ -17,7 +17,7 @@ public class TextOption extends CommonAPI {
         actions.moveToElement(Checking).perform();
     }
     //Find Elements for Business by HoverOver option
-  /*  @FindBy (xpath = "//span[contains(text(),'Business First')]")
+    @FindBy (xpath = "//span[contains(text(),'Business First')]")
     public static WebElement BusinessFirst;
     @FindBy (xpath = "//a[contains(text(),'Business First')]")
     public static WebElement BusinessFirst2;
@@ -25,7 +25,7 @@ public class TextOption extends CommonAPI {
         Actions actions = new Actions(driver);
         actions.moveToElement(BusinessFirst).perform();
         actions.moveToElement(BusinessFirst2).perform();
-    }*/
+    }
     //Find Elements for Borrowing by HoverOver option
     @FindBy (xpath = "//span[contains(text(),'Borrowing')]")
     public static WebElement Borrowing;
