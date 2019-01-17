@@ -1,5 +1,4 @@
 package base;
-
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
@@ -19,7 +18,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -34,7 +32,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 public class CommonAPI {
     public static WebDriver driver = null;
     public static Actions builder = null; //hover over
@@ -50,7 +47,7 @@ public class CommonAPI {
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
                               String browserVersion, @Optional("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\Generic\\browserDriver\\chromedriver.exe") String url)throws IOException {
     //for single test, put your web address on line 52, while push just keep the quotation, remove url
-        System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
+       System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -64,7 +61,7 @@ public class CommonAPI {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
     }
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){

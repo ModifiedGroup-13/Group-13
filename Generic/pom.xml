@@ -71,6 +71,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
+        <dependency>
+            <groupId>net.sourceforge.fuzzyservices</groupId>
+            <artifactId>fuzzyservices-beans</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
 </project>

@@ -13,10 +13,5 @@
         <module name="SprintMobile" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Facebook" target="1.8" />
-      <module name="Santanderbank" target="1.8" />
-      <module name="TMobile" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
