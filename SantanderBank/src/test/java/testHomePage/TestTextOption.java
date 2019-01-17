@@ -19,10 +19,10 @@ import static homePage.MainPage.home;
 //    public void BusinessPage_Test(){Business();}
         @Test
         public void Banking_Test(){Banking();}
-     //   @Test
-      //  public void Borrowing_Test(){Borrowing();}
-     //   @Test
-     //   public void BusinessFirst_Test(){BusinessFirst();}
+        @Test
+        public void Borrowing_Test(){Borrowing();}
+       // @Test
+       // public void BusinessFirst_Test(){BusinessFirst();}
 
 
     }
