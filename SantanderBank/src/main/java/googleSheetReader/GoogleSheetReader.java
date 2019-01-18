@@ -1,5 +1,6 @@
 package googleSheetReader;
 
+import base.CommonAPI;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
 import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
@@ -12,14 +13,13 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
-    public class GoogleSheetReader {
+    public class GoogleSheetReader extends CommonAPI {
         // Application name.
         private static final String APPLICATION_NAME = "Google Sheets API Java GoogleSheetReader";
         // Directory to store user credentials for this application.
@@ -42,15 +42,7 @@ import java.util.List;
                 System.exit(1);
             }
         }
-
         public List<String> range;
-
-        /**
-         * Creates an authorized Credential object.
-         *
-         * @return an authorized Credential object.
-         * @throws IOException
-         */
         public static Credential authorize() throws IOException {
             // Load client secrets.
             InputStream in = GoogleSheetReader.class.getResourceAsStream("/client_secret.json");
@@ -65,12 +57,6 @@ import java.util.List;
             System.out.println("Credentials saved to " + DATA_STORE_DIR.getAbsolutePath());
             return credential;
         }
-        /**
-         * Build and return an authorized Sheets API client service.
-         *
-         * @return an authorized Sheets API client service
-         * @throws IOException
-         */
         public static Sheets getSheetsService() throws IOException {
             Credential credential = authorize();
             return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential)

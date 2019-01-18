@@ -231,4 +231,7 @@ import reporting.TestLogger;
         driver.manage().window().maximize();
         fAQs.click();
     }
-}
+
+        public void clickSignIn() {
+        }
+    }

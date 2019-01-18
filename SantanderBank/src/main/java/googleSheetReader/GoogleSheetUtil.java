@@ -1,4 +1,5 @@
-package homePage;
+package googleSheetReader;
+
 import base.CommonAPI;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
@@ -8,16 +9,11 @@ import org.openqa.selenium.support.FindBy;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import static googleSheetReader.GoogleSheetReader.getSheetsService;
-
 
 public class GoogleSheetUtil extends CommonAPI {
 
-
     //find elements for login page
-
-
     @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/span")
     public static WebElement login;
     @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_entrada.alias")
@@ -31,7 +27,6 @@ public class GoogleSheetUtil extends CommonAPI {
     @FindBy(name = "_W000_hidden_WAR_W000_hiddenportlet_texto")
     public static WebElement Textbox;
 
-
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
         Sheets service = getSheetsService();
@@ -42,10 +37,8 @@ public class GoogleSheetUtil extends CommonAPI {
         else { return values; }
     }
 
-
     //LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
-
 
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();

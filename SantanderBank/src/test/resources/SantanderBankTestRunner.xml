@@ -17,9 +17,10 @@
             <class name="testHomePage.TestHoverOver"/>
             <class name="testHomePage.TestSearch"/>
             <class name="testHomePage.TestTextOption"/>
-            <class name="dataDrivenModel.ConnectMongoDBTest"/>
-            <class name="test.TestExcelReaderPage"/>
-            <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
+            <class name="dataDrivenModel.TestConnectMongoDB"/>
+            <class name="dataDrivenModel.TestConnectToMySql"/>
+            <class name="dataDrivenModel.TestGoogleSheetReader"/>
+            <class name="dataDrivenModel.TestExcelReaderPage"/>
         </classes>
     </test>
 

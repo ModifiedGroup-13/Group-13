@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import java.util.List;
 
-    public class ConnectMongoDBTest extends MongoDBElements {
+    public class TestConnectMongoDB extends MongoDBElements {
         MongoDBElements object;
 
         @BeforeMethod

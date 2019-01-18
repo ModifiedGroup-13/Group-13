@@ -1,4 +1,4 @@
-package test;
+package dataDrivenModel;
 
 import excelData.ExcelDataConfig;
 

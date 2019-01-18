@@ -4,7 +4,7 @@ import base.CommonAPI;
 
 import java.sql.*;
 
-public class ConnectMySqlDB extends CommonAPI {
+public class TestConnectToMySql extends CommonAPI {
     public static Connection connectmysql() throws ClassNotFoundException, SQLException {
         String url = "jdbc:mysql://localhost:3306/manir?useSSL=false&allowPublicKeyRetrieval=true";
         String userName = "root";

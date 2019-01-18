@@ -1,4 +1,4 @@
-package pages;
+package excelData;
 
 import base.CommonAPI;
 import helper.ExcelReader;
@@ -25,8 +25,6 @@ public class ExcelReaderPage extends CommonAPI {
             Thread.sleep(500);
         }
     }
-
-
 }
 
 
