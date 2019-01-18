@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class ReadExcel_1 extends CommonAPI {
 public static void main(String[] args) throws IOException {
-    File src = new File("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\main\\java\\excelData\\Book1.xlsx");
+    File src = new File("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\test\\java\\test\\Book1.xlsx");
     FileInputStream fis = new FileInputStream(src);
     XSSFWorkbook wb = new XSSFWorkbook(fis);
     XSSFSheet sheet1  = wb.getSheetAt(0);

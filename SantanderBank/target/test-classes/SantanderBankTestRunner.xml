@@ -17,6 +17,7 @@
             <class name="testHomePage.TestHoverOver"/>
             <class name="testHomePage.TestSearch"/>
             <class name="testHomePage.TestTextOption"/>
+            <class name="dataDrivenModel.ConnectMongoDBTest"/>
             <class name="test.TestExcelReaderPage"/>
             <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
         </classes>

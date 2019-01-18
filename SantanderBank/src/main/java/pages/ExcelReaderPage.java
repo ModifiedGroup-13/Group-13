@@ -15,7 +15,7 @@ public class ExcelReaderPage extends CommonAPI {
     @FindBy(css = "#gh-ac")
     WebElement searchBox;
     public void searchFromExcel() throws InterruptedException {
-        ExcelReader excelReader = new ExcelReader("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\main\\java\\excelData\\Book1.xlsx");
+        ExcelReader excelReader = new ExcelReader("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\test\\java\\test\\Book1.xlsx");
         int rowcount = excelReader.getRowCount(0);
         searchBox.click();
         for (int i = 0; i < rowcount; i++) {
