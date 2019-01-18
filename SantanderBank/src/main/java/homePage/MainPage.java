@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
     public class MainPage extends CommonAPI {
-    @FindBy(xpath = "//img[@alt = 'Santander Bank N.A.']")
+    @FindBy(xpath = "//img[@src='https://www.santanderbank.com/us/documents/22507/1276166/im-wcsanusa-logo-7-19-18/dcfe6d3c-58ab-445d-8e8c-7c876435b87b']")
     public static WebElement santanderLogo;
 
     public void checkSantanderLogo() {

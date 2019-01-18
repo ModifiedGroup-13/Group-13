@@ -3,17 +3,22 @@
 
 <suite name="SantanderBank Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.santanderbank.com/us/personal"/>
+    <parameter name="url" value="https://www.santanderbank.com"/>
 
-    <test name = "SantanderBank Home">
+    <test name = "SantanderBank Test">
         <classes>
             <class name="testHomePage.TestMainPage"/>
+            <class name="testHomePage.TestHoverOver"/>
+            <class name="testHomePage.TestSearch"/>
+            <class name="testHomePage.TestTextOption"/>
+            <class name="test.TestExcelReaderPage"/>
+            <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
         </classes>
     </test>
 

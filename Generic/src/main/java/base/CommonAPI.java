@@ -48,6 +48,7 @@ public class CommonAPI {
                               String browserVersion, @Optional("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\Generic\\browserDriver\\chromedriver.exe") String url)throws IOException {
     //for single test, put your web address on line 52, while push just keep the quotation, remove url
        System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
+       // System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -78,7 +79,7 @@ public class CommonAPI {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
@@ -108,11 +109,11 @@ public class CommonAPI {
         cap.setCapability("os_version", os_version);
         if(envName.equalsIgnoreCase("Saucelabs")){
             //resolution for Saucelabs
-            driver = new RemoteWebDriver(new URL("http://"+envUsername+":"+envAccessKey+
+            driver = new RemoteWebDriver(new URL("https://"+envUsername+":"+envAccessKey+
                     "@ondemand.saucelabs.com:80/wd/hub"), cap);
         }else if(envName.equalsIgnoreCase("Browserstack")) {
             cap.setCapability("resolution", "1024x768");
-            driver = new RemoteWebDriver(new URL("http://" + envUsername + ":" + envAccessKey +
+            driver = new RemoteWebDriver(new URL("https://" + envUsername + ":" + envAccessKey +
                     "@hub-cloud.browserstack.com/wd/hub"), cap);
         }
         return driver;

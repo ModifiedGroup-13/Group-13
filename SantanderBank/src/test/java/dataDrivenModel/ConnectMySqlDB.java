@@ -1,4 +1,4 @@
-package dataDrivenExcel;
+package dataDrivenModel;
 
 import base.CommonAPI;
 
