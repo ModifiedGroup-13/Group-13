@@ -15,7 +15,6 @@ public class TestPageTitle extends PageTitle {
         .getClass().getEnclosingMethod().getName()));
         PT = PageFactory.initElements(driver, PageTitle.class);
     }
-
     @Test
     public void checkPageHeader() {
         PT.setalarWin1();
@@ -38,7 +37,4 @@ public class TestPageTitle extends PageTitle {
             }.getClass().getEnclosingMethod().getName()));
             PT.setalarWin1();
             PT.setPageTitle();
-
-        }
-
-    }
+    }}

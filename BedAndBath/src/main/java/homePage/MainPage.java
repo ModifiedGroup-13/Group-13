@@ -20,8 +20,6 @@ public class MainPage extends BaseUtil {
     @FindBy(id = "tabPanel0")
     public static WebElement PersonalizeGift;
 
-
-
     @FindBy(css = "#rclModal > button")
     public static WebElement alertWin;
 

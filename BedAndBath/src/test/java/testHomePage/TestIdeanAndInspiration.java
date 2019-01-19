@@ -26,12 +26,14 @@ public class TestIdeanAndInspiration extends IdeaAndInspiration {
             IdeaInsp.alarWin1();
             IdeaInsp.checkInspiration();
             IdeaInsp.checkInsp();
+            IdeaInsp.alarWin1();
      }
      @Test
     public void checkPageTitle(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
      }.getClass().getEnclosingMethod().getName()));
         driver.get("https://www.bedbathandbeyond.com/onemorething/?utm_source=BBB%20HP%20Flyout&utm_medium=BBB%20Trends-Ideas&utm_campaign=Visit%20One%20More%20Thing");
+        IdeaInsp.alarWin1();
         IdeaInsp.checkPageTitle();
      }
 }

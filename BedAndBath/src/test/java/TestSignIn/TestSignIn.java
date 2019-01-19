@@ -23,6 +23,5 @@ public class TestSignIn extends SignIn {
         si.checksignIn();
         si.alarWin1();
         si.checkclickOnSignIn();
-
     }
 }
