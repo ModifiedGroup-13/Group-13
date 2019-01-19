@@ -13,14 +13,15 @@
 
     <test name = "SantanderBank Test">
         <classes>
-            <class name="testHomePage.TestMainPage"/>
+         <!--   <class name="testHomePage.TestMainPage"/>
             <class name="testHomePage.TestHoverOver"/>
             <class name="testHomePage.TestSearch"/>
-            <class name="testHomePage.TestTextOption"/>
-            <class name="dataDrivenModel.TestConnectMongoDB"/>
+            <class name="testHomePage.TestTextOption"/>-->
+            <class name="testHomePage.TestBottomLinks"/>
+     <!--       <class name="dataDrivenModel.TestConnectMongoDB"/>
             <class name="dataDrivenModel.TestConnectToMySql"/>
             <class name="dataDrivenModel.TestGoogleSheetReader"/>
-            <class name="dataDrivenModel.TestExcelReaderPage"/>
+            <class name="dataDrivenModel.TestExcelReaderPage"/> -->
         </classes>
     </test>
 
