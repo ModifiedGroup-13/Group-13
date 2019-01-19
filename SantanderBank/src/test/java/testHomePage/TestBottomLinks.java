@@ -38,60 +38,49 @@ public class TestBottomLinks extends BottomLinks {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         bottomLinks.checkBrokerMortgageOrigination();
     }
- /*   @Test
-    public void testsantanderUniversities(){
+    @Test
+    public void testAboutUs(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkAboutUs();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testMediaCenter(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkMediaCenter();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testShareholderRelations(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkShareholderRelations();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testCommunity(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkCommunity();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testCareers(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkCareers();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testCustomerService(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkCustomerService();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testSiteMap(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkSiteMap();
+    }
+   @Test
+    public void testAccessibility(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        bottomLinks.checkAccessibility();
     }
     @Test
-    public void testsantanderUniversities(){
+    public void testFaceBookImage(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
+        bottomLinks.checkFaceBookImage();
     }
-    @Test
-    public void testsantanderUniversities(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
-    }
-    @Test
-    public void testsantanderUniversities(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
-    }
-    @Test
-    public void testsantanderUniversities(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        bottomLinks.checksantanderUniversities();
-    }*/
-
 }

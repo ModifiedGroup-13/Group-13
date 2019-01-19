@@ -42,103 +42,85 @@ public class BottomLinks extends CommonAPI {
         driver.manage().window().maximize();
         brokerMortgageOrigination.click();
     }
- /*   @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'About Us')]")
+    public static WebElement aboutUs;
 
-    public void checksantanderUniversities() {
+    public void checkAboutUs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        aboutUs.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Media Center')]")
+    public static WebElement mediaCenter;
 
-    public void checksantanderUniversities() {
+    public void checkMediaCenter() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        mediaCenter.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Shareholder Relations')]")
+    public static WebElement shareholderRelations;
 
-    public void checksantanderUniversities() {
+    public void checkShareholderRelations() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        shareholderRelations.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Community')]")
+    public static WebElement community;
 
-    public void checksantanderUniversities() {
+    public void checkCommunity() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        community.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Careers')]")
+    public static WebElement careers;
 
-    public void checksantanderUniversities() {
+    public void checkCareers() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        careers.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Customer Service')]")
+    public static WebElement customerService;
 
-    public void checksantanderUniversities() {
+    public void checkCustomerService() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        customerService.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Site Map')]")
+    public static WebElement siteMap;
 
-    public void checksantanderUniversities() {
+    public void checkSiteMap() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        siteMap.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Accessibility')]")
+    public static WebElement accessibility;
 
-    public void checksantanderUniversities() {
+    public void checkAccessibility() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        accessibility.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
+    @FindBy(xpath = "//span[contains(text(),'Servicemember Civil Relief Act (SCRA) Benefits')]")
+    public static WebElement faceBookImage;
 
-    public void checksantanderUniversities() {
+    public void checkFaceBookImage() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         driver.manage().window().maximize();
-        santanderUniversities.click();
+        faceBookImage.click();
     }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
-
-    public void checksantanderUniversities() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        driver.manage().window().maximize();
-        santanderUniversities.click();
-    }
-    @FindBy(xpath = "//span[contains(text(),'Santander Universities')]")
-    public static WebElement santanderUniversities;
-
-    public void checksantanderUniversities() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        driver.manage().window().maximize();
-        santanderUniversities.click();
-    }*/
-}
+ }
