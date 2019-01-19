@@ -14,18 +14,18 @@ import static googleSheetReader.GoogleSheetReader.getSheetsService;
 public class GoogleSheetUtil extends CommonAPI {
 
     //find elements for login page
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet__VIEW\"]/div/div/header/div[2]/div/div/nav/div[1]/span")
+    @FindBy(xpath = "//span[contains(text(),'Login')]")
     public static WebElement login;
-    @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_entrada.alias")
+    @FindBy(xpath = "//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.alias']")
     public static WebElement UserInput;
-    @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_entrada.pwd")
+    @FindBy(xpath = "//input[@id='_P002_Menu_WAR_P002_Menuportlet_entrada.pwd']")
     public static WebElement PasswordInput;
-    @FindBy(id = "_P002_Menu_WAR_P002_Menuportlet_loginButtonTM")
+    @FindBy(xpath = "//button[@id='_P002_Menu_WAR_P002_Menuportlet_loginButtonTM']")
     public static WebElement LogIn;
-    @FindBy(xpath = "//*[@id=\"_P002_Menu_WAR_P002_Menuportlet_formLogin\"]/fieldset/div/span/div[1]")
-    public static WebElement errorMsg;
-    @FindBy(name = "_W000_hidden_WAR_W000_hiddenportlet_texto")
-    public static WebElement Textbox;
+    @FindBy(xpath = "//a[text()='Forgot your user ID?']")
+    public static WebElement errorMsgID;
+    @FindBy(name = "//a[text()='Forgot your password?']")
+    public static WebElement errorMsgPW;
 
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
@@ -48,8 +48,8 @@ public class GoogleSheetUtil extends CommonAPI {
             inputValueInTextBoxByWebElement(PasswordInput, row.get(2).toString());
             Thread.sleep(5000);
             //actual.add(getCurrentPageTitle());
-            actual.add(getTextByWebElement(errorMsg));
-            System.out.println(getTextByWebElement(errorMsg));
+            actual.add(getTextByWebElement(errorMsgID));
+            System.out.println(getTextByWebElement(errorMsgPW));
             //clearInputBox(Textbox);
             clearInputBox(UserInput);
             clearInputBox(PasswordInput);
