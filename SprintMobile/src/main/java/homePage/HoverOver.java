@@ -7,7 +7,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import reporting.TestLogger;
-
 import java.util.ArrayList;
 import java.util.List;
 public class HoverOver extends CommonAPI {
@@ -30,7 +29,7 @@ public class HoverOver extends CommonAPI {
         System.out.println(ShopPlans.getText());
     }
 
-        public void checkSupport() throws InterruptedException {
+    public void checkSupport() throws InterruptedException {
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
             Actions builder = new Actions(driver);
             WebElement Support = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'Support')]"));
@@ -39,7 +38,7 @@ public class HoverOver extends CommonAPI {
             Thread.sleep(2000);
             System.out.println(Support.getText());
     }
-       public void checkMySprint() throws InterruptedException {
+    public void checkMySprint() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         Actions builder = new Actions(driver);
         WebElement MySprint = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'My Sprint')]"));
@@ -48,7 +47,7 @@ public class HoverOver extends CommonAPI {
         Thread.sleep(2000);
         System.out.println(MySprint.getText());
     }
-       public void checkActivate() throws InterruptedException {
+    public void checkActivate() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         Actions builder = new Actions(driver);
         WebElement Activate = driver.findElement(By.xpath("//a[@class='sprint-menu__root js-nav-link-root']//span[contains(text(),'Activate')]"));

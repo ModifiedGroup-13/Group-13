@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/InPuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestInPut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/HoverOver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$11.class" afterDir="false" />
@@ -31,6 +45,8 @@
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$30.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$33.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/SprintMobile/target/classes/homePage/MainPage$6.class" afterDir="false" />
@@ -57,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+            <state relative-caret-position="241">
+              <caret line="21" column="36" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,10 +86,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestInPut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+            <state relative-caret-position="298">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/InPuts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +162,16 @@
         <option value="$PROJECT_DIR$/BedAndBath/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/resources/SprintTestRunner.xml" />
         <option value="$PROJECT_DIR$/SprintMobile/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestSearchPage.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/SearchPage.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/main/java/homePage/InPuts.java" />
+        <option value="$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestInPut.java" />
       </list>
     </option>
   </component>
@@ -142,7 +187,17 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="BedAndBath" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -152,8 +207,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="153" />
-    <option name="y" value="84" />
+    <option name="x" value="15" />
+    <option name="y" value="135" />
     <option name="width" value="1836" />
     <option name="height" value="1041" />
   </component>
@@ -163,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,26 +300,25 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547351059640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547945520327" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\src\test" />
-      <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\target\test-classes\testHomePage" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\src\test\resources" />
       <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\src\test\java\testHomePage" />
-      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\BedAndBath\src\test\resources" />
-      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\SantanderBank\src\test\resources" />
+      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\SprintMobile\src\test" />
+      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\SantanderBank\src\test" />
+      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\BedAndBath\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="testHomePage" />
@@ -271,12 +327,12 @@
       <recent name="parser" />
       <recent name="googleAPIs" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\src\test\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\src\test" />
+      <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\target\test-classes\testHomePage" />
       <recent name="C:\Users\imran\Desktop\clone\Group-13\SprintMobile\src\test\java\testHomePage" />
-      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\SprintMobile\src\test" />
-      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\SantanderBank\src\test" />
-      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\BedAndBath\src\test" />
+      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\BedAndBath\src\test\resources" />
+      <recent name="C:\Users\nafas\Desktop\sohag\Group-13\SantanderBank\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,8 +347,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testGalaxyTab">
-    <configuration name="TestHoverOver.testActivate" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestInPut.testSearchENTERKeyword">
+    <configuration name="TestInPut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -301,8 +357,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
-      <option name="METHOD_NAME" value="testActivate" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestInPut" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInPut.checkFiled" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestInPut" />
+      <option name="METHOD_NAME" value="checkFiled" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -310,7 +382,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testCall" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInPut.testSearchENTERKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -319,8 +391,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testCall" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestInPut" />
+      <option name="METHOD_NAME" value="testSearchENTERKeyword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -328,7 +400,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testGalaxyTab" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearchPage.testSearchBySubmitButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -337,8 +409,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testGalaxyTab" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchPage" />
+      <option name="METHOD_NAME" value="testSearchBySubmitButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -346,7 +418,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testGalaxyWatch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearchPage.testSearchENTERKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -355,26 +427,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testGalaxyWatch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testShopTodayGalaxyS9" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SprintMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testShopTodayGalaxyS9" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchPage" />
+      <option name="METHOD_NAME" value="testSearchENTERKeyword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -384,11 +438,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testGalaxyTab" />
-        <item itemvalue="TestNG.TestMainPage.testGalaxyWatch" />
-        <item itemvalue="TestNG.TestMainPage.testCall" />
-        <item itemvalue="TestNG.TestMainPage.testShopTodayGalaxyS9" />
-        <item itemvalue="TestNG.TestHoverOver.testActivate" />
+        <item itemvalue="TestNG.TestInPut.testSearchENTERKeyword" />
+        <item itemvalue="TestNG.TestInPut.checkFiled" />
+        <item itemvalue="TestNG.TestInPut" />
+        <item itemvalue="TestNG.TestSearchPage.testSearchENTERKeyword" />
+        <item itemvalue="TestNG.TestSearchPage.testSearchBySubmitButton" />
       </list>
     </recent_temporary>
   </component>
@@ -404,50 +458,65 @@
       <updated>1547221930947</updated>
       <workItem from="1547244161640" duration="19087000" />
       <workItem from="1547267836333" duration="1228000" />
-      <workItem from="1547305967041" duration="16200000" />
+      <workItem from="1547305967041" duration="20282000" />
+      <workItem from="1547399005361" duration="10572000" />
+      <workItem from="1547512957328" duration="1322000" />
+      <workItem from="1547582122489" duration="1843000" />
+      <workItem from="1547594895336" duration="7810000" />
+      <workItem from="1547682533398" duration="5315000" />
+      <workItem from="1547765347512" duration="2498000" />
+      <workItem from="1547913153116" duration="1219000" />
+      <workItem from="1547915417202" duration="1702000" />
+      <workItem from="1547917276928" duration="643000" />
+      <workItem from="1547919583451" duration="1626000" />
+      <workItem from="1547926458339" duration="1227000" />
+      <workItem from="1547938341782" duration="1779000" />
+      <workItem from="1547940161216" duration="1780000" />
+      <workItem from="1547942051598" duration="1777000" />
+      <workItem from="1547943918555" duration="1356000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 20h 52m 26s.xml">
-      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 03m 09s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 21h 10m 46s.xml">
-      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 07m 39s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHoverOver_testShopPlans - 2019.01.12 at 21h 12m 49s.xml">
-      <configuration name="TestHoverOver.testShopPlans" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 08m 17s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHoverOver_testSupport - 2019.01.12 at 21h 14m 54s.xml">
-      <configuration name="TestHoverOver.testSupport" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 09m 29s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHoverOver_testSupport - 2019.01.12 at 21h 17m 07s.xml">
-      <configuration name="TestHoverOver.testSupport" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 13m 05s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHoverOver_testMySprint - 2019.01.12 at 21h 30m 33s.xml">
-      <configuration name="TestHoverOver.testMySprint" configurationId="TestNG" />
+    <history-entry file="TestInPut - 2019.01.19 at 19h 15m 19s.xml">
+      <configuration name="TestInPut" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHoverOver_testActivate - 2019.01.12 at 21h 34m 16s.xml">
-      <configuration name="TestHoverOver.testActivate" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 15m 47s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testShopTodayGalaxyS9 - 2019.01.12 at 21h 58m 07s.xml">
-      <configuration name="TestMainPage.testShopTodayGalaxyS9" configurationId="TestNG" />
+    <history-entry file="TestInPut_checkFiled - 2019.01.19 at 19h 16m 54s.xml">
+      <configuration name="TestInPut.checkFiled" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testCall - 2019.01.12 at 22h 03m 42s.xml">
-      <configuration name="TestMainPage.testCall" configurationId="TestNG" />
+    <history-entry file="TestSearchPage_testSearchENTERKeyword - 2019.01.19 at 19h 17m 18s.xml">
+      <configuration name="TestSearchPage.testSearchENTERKeyword" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testGalaxyWatch - 2019.01.12 at 22h 12m 05s.xml">
-      <configuration name="TestMainPage.testGalaxyWatch" configurationId="TestNG" />
+    <history-entry file="TestInPut_testSearchENTERKeyword - 2019.01.19 at 19h 52m 15s.xml">
+      <configuration name="TestInPut.testSearchENTERKeyword" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36515000" />
+    <option name="totallyTimeSpent" value="83066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20809716" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19595142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,11 +542,43 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Mongo Explorer" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.024291499" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.1271255" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20809716" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31083483" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.029959515" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -501,18 +602,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -553,13 +642,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Facebook/pom.xml" />
     <entry file="file://$PROJECT_DIR$/TMobile/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-53">
@@ -671,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -688,26 +763,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/target/test-classes/testHomePage/SprintTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/resources/CostcoTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/target/test-classes/testHomePage/SprintTestRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/resources/CostcoTestRunner.xml" />
     <entry file="file://$PROJECT_DIR$/Costco/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="41" column="12" selection-start-line="12" selection-start-column="4" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="36" column="130" selection-start-line="36" selection-start-column="130" selection-end-line="36" selection-end-column="130" />
         </state>
       </provider>
     </entry>
@@ -718,17 +779,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="55" column="63" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        <state relative-caret-position="17">
+          <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="85" column="147" selection-start-line="85" selection-start-column="147" selection-end-line="85" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.class" />
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/HoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="238">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="181" column="35" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -737,18 +830,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -757,8 +839,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="36" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestInPut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/InPuts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

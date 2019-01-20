@@ -51,7 +51,7 @@ public class CommonAPI {
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
                               String browserVersion, @Optional("https://www.sprint.com/") String url)throws IOException {
 //for single test, put your web address on line 52, while push just keep the quotation, remove url
-        System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\imran\\Desktop\\clone\\Group-13\\Generic\\browserDriver\\chromedriver.exe");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -73,7 +73,7 @@ public class CommonAPI {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\imran\\Desktop\\clone\\Group-13\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
             builder = new Actions(driver);
@@ -83,7 +83,7 @@ public class CommonAPI {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\imran\\Desktop\\clone\\Group-13\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();

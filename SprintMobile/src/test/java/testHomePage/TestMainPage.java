@@ -179,6 +179,6 @@ public class TestMainPage extends MainPage {
     @Test
     public void testGalaxyTab(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkGalaxyWatch ();
+        mainPage.checkGalaxyTab ();
     }
 }
