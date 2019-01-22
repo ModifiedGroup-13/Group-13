@@ -27,4 +27,18 @@ public class HomePageLinks extends CommonAPI {
         driver.manage().window().maximize();
         overComeEnxiety.click();
     }
+    @FindBy(id = "PandT-9-ways-save-serious-grocery-store")
+    public static WebElement nineWaysToSave;
+    public void checkNineWaysToSave() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        nineWaysToSave.click();
+    }
+    @FindBy(id = "PandT-abcs-heloc-application-process")
+    public static WebElement abcsOfAppProcess;
+    public void checkAbcsOfAppProcess() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        driver.manage().window().maximize();
+        abcsOfAppProcess.click();
+    }
 }

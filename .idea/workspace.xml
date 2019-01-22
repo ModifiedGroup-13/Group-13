@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java" afterDir="false" />
     </list>
@@ -74,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="198">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="200">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -386,7 +385,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548143527636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548144239904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SantanderBank/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -529,9 +528,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.21 at 22h 36m 24s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.21 at 22h 52m 24s.xml">
       <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -559,11 +555,15 @@
     <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.22 at 02h 44m 37s.xml">
       <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.22 at 02h 52m 51s.xml">
+      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1361" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23289777" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23289777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -572,12 +572,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.2707641" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.2707641" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38538206" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38538206" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.38265306" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2641196" />
@@ -1030,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="198">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1040,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="200">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
