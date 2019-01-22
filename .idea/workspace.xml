@@ -2,117 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc1f4eb-20e5-48eb-94c9-60afecbcda61" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BedAndBath/target/BedAndBath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BedAndBath/target/BedAndBath-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BedAndBath/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BedAndBath/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BedAndBath/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BedAndBath/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BedAndBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BedAndBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/Costco-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/Costco-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Costco/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/ConnectDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/dataProviderUtilityWithXlsReader/XlsReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/dataProviderUtilityWithXlsReader/XlsReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/ConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/ConnectDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/databaseConnection/ConnectToMySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/databaseConnection/ConnectToMySql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/excelData/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/excelData/ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/googleSheetReader/GoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/googleSheetReader/GoogleSheetReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/googleSheetReader/GoogleSheetUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/googleSheetReader/GoogleSheetPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/BottomLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/BottomLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/secret.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/dataDrivenModel/Book1.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/Book1.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/dataDrivenModel/TestConnectMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/TestConnectMongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/dataDrivenModel/TestConnectToMySql.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/TestConnectToMySql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/dataDrivenModel/TestExcelReaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/TestExcelReaderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/dataDrivenModel/TestGoogleSheetReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestBottomLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestBottomLinks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestTextOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestTextOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/META-INF/SantanderBank.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/Search$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/Search$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/Search$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/Search$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/classes/homePage/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/SantanderBankTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestSearch$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestSearch$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/target/test-classes/testHomePage/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/SprintMobile-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SprintMobile/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -182,95 +74,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestBottomLinks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HoverOver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/Search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/TestGoogleSheetSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -348,10 +165,10 @@
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/BottomLinks.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/Search.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestSearch.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestBottomLinks.java" />
-        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java" />
         <option value="$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java" />
+        <option value="$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java" />
       </list>
     </option>
   </component>
@@ -569,7 +386,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548142343719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548143527636" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SantanderBank/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -712,12 +529,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.21 at 22h 20m 09s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.21 at 22h 22m 37s.xml">
-      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.21 at 22h 36m 24s.xml">
       <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -742,6 +553,12 @@
     <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.22 at 02h 09m 51s.xml">
       <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.22 at 02h 33m 18s.xml">
+      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Manir_Desktop_GroupProject_Group-13_SantanderBank_src_test_resources_SantanderBankTestRunner_xml - 2019.01.22 at 02h 44m 37s.xml">
+      <configuration name="C:/Users/Manir/Desktop/GroupProject/Group-13/SantanderBank/src/test/resources/SantanderBankTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="1361" height="735" extended-state="0" />
@@ -760,7 +577,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1309329" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38538206" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" weight="0.38265306" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2641196" />
@@ -1123,13 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/TestGoogleSheetSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1194,6 +1004,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/dataFeatures/TestGoogleSheetSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestBottomLinks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1206,8 +1030,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/main/java/homePage/HomePageLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1216,18 +1040,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/java/testHomePage/TestHomePageLinks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="320">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SantanderBank/src/test/resources/SantanderBankTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
         </state>
       </provider>
     </entry>

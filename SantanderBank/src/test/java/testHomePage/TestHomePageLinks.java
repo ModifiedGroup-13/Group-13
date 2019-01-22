@@ -20,4 +20,14 @@ public class TestHomePageLinks extends HomePageLinks {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePageLinks.checkTenCreditTipsLink();
     }
+    @Test
+    public void testTopFiveAlerts(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePageLinks.checkTopFiveAlerts();
+    }
+    @Test
+    public void testOverComeEnxiety(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        homePageLinks.checkOverComeEnxiety();
+    }
 }
