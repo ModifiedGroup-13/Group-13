@@ -2,7 +2,7 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -170,12 +170,12 @@ public class BaseUtil {
         df.format(date);
 
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        try {
+      /*  try {
             FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
             System.out.println("Screenshot captured");
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
-        }
+        }*/
     }
     @AfterSuite
     public void generateReport() {

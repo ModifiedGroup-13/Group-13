@@ -1,12 +1,10 @@
 package testHomePage;
 
 import homePage.BottomLinks;
-import homePage.MainPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-import static base.CommonAPI.convertToString;
 
 public class TestBottomLinks extends BottomLinks {
      BottomLinks bottomLinks;
@@ -14,8 +12,7 @@ public class TestBottomLinks extends BottomLinks {
     @BeforeMethod
     public void initialize() {
         TestLogger.log(convertToString(new Object() {
-        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
+        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         bottomLinks = PageFactory.initElements(driver, BottomLinks.class);
     }
     @Test

@@ -1,10 +1,11 @@
-package dataDrivenModel;
+package dataFeatures;
 
 import base.CommonAPI;
+import databaseConnection.ConnectToMySql;
 
 import java.sql.*;
 
-public class TestConnectToMySql extends CommonAPI {
+public class TestConnectToMySql extends ConnectToMySql {
     public static Connection connectmysql() throws ClassNotFoundException, SQLException {
         String url = "jdbc:mysql://localhost:3306/manir?useSSL=false&allowPublicKeyRetrieval=true";
         String userName = "root";

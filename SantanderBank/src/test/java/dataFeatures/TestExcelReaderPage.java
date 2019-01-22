@@ -1,4 +1,4 @@
-package dataDrivenModel;
+package dataFeatures;
 
 import excelData.ExcelDataConfig;
 

@@ -21,8 +21,7 @@ public class TestMainPage extends MainPage {
     }
     @Test
     public void testSearchBox() {
-    TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-    }.getClass().getEnclosingMethod().getName()));
+    TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {  }.getClass().getEnclosingMethod().getName()));
     mainPage.checkSearchBox();
     }
     @Test

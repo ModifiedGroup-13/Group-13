@@ -1,6 +1,7 @@
 package googleAPIs;
 
 import base.BaseUtil;
+import base.CommonAPI;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
 import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
@@ -13,6 +14,7 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
+import com.google.api.services.sheets.v4.model.ValueRange;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,7 +22,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
-public class GoogleSheetReader extends BaseUtil {
+public class GoogleSheetReader extends CommonAPI {
     // Application name.
     private static final String APPLICATION_NAME = "Google Sheets API Java GoogleSheetReader";
     // Directory to store user credentials for this application.
@@ -51,7 +53,7 @@ public class GoogleSheetReader extends BaseUtil {
      */
     public static Credential authorize() throws IOException {
         // Load client secrets.
-        InputStream in = GoogleSheetReader.class.getResourceAsStream("/client_secret1.json");
+        InputStream in = GoogleSheetReader.class.getResourceAsStream("/client_secret.json");
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
         // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(
@@ -75,6 +77,51 @@ public class GoogleSheetReader extends BaseUtil {
                 .setApplicationName(APPLICATION_NAME)
                 .build();
     }
+    public static List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
+        // Build a new authorized API client service.
+        Sheets service = getSheetsService();
+        ValueRange response = service.spreadsheets().values()
+                .get(spreadsheetId, range)
+                .execute();
+        List<List<Object>> values = response.getValues();
+        if (values == null || values.size() == 0) {
+            return null;
+        } else {
+            return values;
+        }
+    }
 
+    /**
+     * This method will return two dimensional array
+     * We can use it with @DataProvider annotations
+     *
+     * */
 
+    public static String[][] getSpreadSheetRecordsToSupplyDataProvider(String spreadsheetId, String range) throws IOException {
+        // Build a new authorized API client service.
+
+        List<List<Object>> getSpreadSheetRecords = getSpreadSheetRecords(spreadsheetId, range);
+
+        String[][] array = new String[getSpreadSheetRecords.size()][];
+
+        for (int i = 0; i < getSpreadSheetRecords.size(); i++) {
+            List<Object> row = getSpreadSheetRecords.get(i);
+            array[i] = row.toArray(new String[row.size()]);
+        }
+
+        return array;
+    }
+    /**
+     * Alternative way to convert List to 2d Array
+     *
+     * */
+    public static String[][] getSpreadSheetRecordsToSupplyDataProviderAlternativeWay(String spreadsheetId, String range) throws IOException {
+        // Build a new authorized API client service.
+
+        List<List<Object>> getSpreadSheetRecords = getSpreadSheetRecords(spreadsheetId, range);
+
+        String[][] array = getSpreadSheetRecords.stream().map(u -> u.toArray(new String[0])).toArray(String[][]::new);
+
+        return array;
+    }
 }

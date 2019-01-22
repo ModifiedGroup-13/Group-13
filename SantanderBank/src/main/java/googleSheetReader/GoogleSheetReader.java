@@ -13,6 +13,8 @@ import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.SheetsScopes;
+import com.google.api.services.sheets.v4.model.ValueRange;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -42,7 +44,13 @@ import java.util.List;
                 System.exit(1);
             }
         }
-        public List<String> range;
+
+        /**
+         * Creates an authorized Credential object.
+         *
+         * @return an authorized Credential object.
+         * @throws IOException
+         */
         public static Credential authorize() throws IOException {
             // Load client secrets.
             InputStream in = GoogleSheetReader.class.getResourceAsStream("/client_secret.json");
@@ -57,16 +65,27 @@ import java.util.List;
             System.out.println("Credentials saved to " + DATA_STORE_DIR.getAbsolutePath());
             return credential;
         }
+        /**
+         * Build and return an authorized Sheets API client service.
+         *
+         * @return an authorized Sheets API client service
+         * @throws IOException
+         */
         public static Sheets getSheetsService() throws IOException {
             Credential credential = authorize();
-            return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential)
-                    .setApplicationName(APPLICATION_NAME)
-                    .build();
+            return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential).setApplicationName(APPLICATION_NAME).build();
         }
-
-        public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) {
-            return null;
+        public static List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
+            // Build a new authorized API client service.
+            Sheets service = getSheetsService();
+            ValueRange response = service.spreadsheets().values()
+                    .get(spreadsheetId, range)
+                    .execute();
+            List<List<Object>> values = response.getValues();
+            if (values == null || values.size() == 0) {
+                return null;
+            } else {
+                return values;
+            }
         }
     }
-
-

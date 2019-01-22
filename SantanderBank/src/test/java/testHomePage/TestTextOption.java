@@ -6,10 +6,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import static homePage.MainPage.home;
 
-
     public class TestTextOption extends TextOption {
         TextOption testTextOption;
-
         @BeforeMethod
         public void initelement() {
            testTextOption = PageFactory.initElements(driver, TextOption.class);
@@ -23,8 +21,6 @@ import static homePage.MainPage.home;
         public void Borrowing_Test(){Borrowing();}
         @Test
         public void BusinessFirst_Test(){BusinessFirst();}
-
-
     }
 
 

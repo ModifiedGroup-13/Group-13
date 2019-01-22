@@ -10,9 +10,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/Facebook/pom.xml" />
-        <option value="$PROJECT_DIR$/Santanderbank/pom.xml" />
-        <option value="$PROJECT_DIR$/TMobile/pom.xml" />
+        <option value="$PROJECT_DIR$/TableAutomationM/pom.xml" />
       </set>
     </option>
   </component>

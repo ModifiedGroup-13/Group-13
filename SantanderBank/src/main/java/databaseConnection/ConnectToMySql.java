@@ -1,5 +1,6 @@
 package databaseConnection;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class ConnectToMySql{
+public class ConnectToMySql extends CommonAPI {
 
         public static Connection connect = null;
         public static Statement statement = null;
@@ -18,7 +19,7 @@ public class ConnectToMySql{
 
         public static Properties LoadProperties() throws IOException {
             Properties prop = new Properties();
-            InputStream ism = new FileInputStream("src/secret.properties");
+            InputStream ism = new FileInputStream("C:\\Users\\Manir\\Desktop\\GroupProject\\Group-13\\SantanderBank\\src\\secret.properties");
             prop.load(ism);
             ism.close();
             return prop;
@@ -58,7 +59,6 @@ public class ConnectToMySql{
                 e.printStackTrace();
             }
         }
-
         public List<String> readData(String tableName, String columnName) {
             List<String> warning = new ArrayList<>();
             try {
@@ -76,5 +76,4 @@ public class ConnectToMySql{
             }
             return warning;
         }
-
     }
