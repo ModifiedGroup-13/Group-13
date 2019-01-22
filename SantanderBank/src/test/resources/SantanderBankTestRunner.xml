@@ -15,7 +15,8 @@
         <classes>
       <!--      <class name="dataFeatures.TestGoogleSheetSearch"/>
            <class name="testHomePage.TestMainPage"/> -->
-            <class name="testHomePage.TestHomePageLinks"/>
+            <!--<class name="testHomePage.TestHomePageLinks"/>-->
+            <class name="dataFeatures.TestExlReaderPage"/>
      <!--       <class name="testHomePage.TestHoverOver"/>
             <class name="testHomePage.TestSearch"/>
            <class name="testHomePage.TestTextOption"/>
