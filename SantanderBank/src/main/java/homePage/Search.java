@@ -13,11 +13,11 @@ public class Search extends CommonAPI {
     public static WebElement searchField;
     @FindBy(xpath= "//input[@id='_P001_Header_WAR_P001_Headerportlet_searchButton']")
     public static WebElement submitButton;
-   /* public static void waitToBeVisible(){
+    public static void waitToBeVisible(){
         TestLogger.log(Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        searchKey.click();
+       // searchKey.click();
         wait.until(ExpectedConditions.visibilityOf(searchField));
-    }*/
+    }
     public void searchByENTERKeyword(String searchKeys){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
       //  waitToBeVisible();

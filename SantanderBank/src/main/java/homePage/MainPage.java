@@ -62,6 +62,10 @@ import reporting.TestLogger;
             driver.manage().window().maximize();
             login.click();
         }
+        @FindBy(xpath = "//span[contains(text(),'Login')]")
+        public static WebElement login1;
+        public void login(){login1.click();}
+
         @FindBy(xpath = "//h1[@class='titpage alignC']")
         public static WebElement santanderCommercialBanking;
         public void checkSantanderCommercialBanking() {

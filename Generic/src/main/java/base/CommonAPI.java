@@ -116,7 +116,7 @@ public class CommonAPI {
                     "@ondemand.saucelabs.com:80/wd/hub"), cap);
         }else if(envName.equalsIgnoreCase("Browserstack")) {
             cap.setCapability("resolution", "1024x768");
-            driver = new RemoteWebDriver(new URL("https://www.browserstack.com/" + envUsername + ":" + envAccessKey +
+            driver = new RemoteWebDriver(new URL("https://" + envUsername + ":" + envAccessKey +
                     "@hub-cloud.browserstack.com/wd/hub"), cap);
         }
         return driver;
