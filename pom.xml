@@ -15,7 +15,6 @@
         <module>SantanderBank</module>
         <module>SprintMobile</module>
         <module>DropDown</module>
-        <module>TableAutomationM</module>
     </modules>
 
     <dependencyManagement>

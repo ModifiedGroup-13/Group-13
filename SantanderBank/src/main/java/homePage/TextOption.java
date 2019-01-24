@@ -8,12 +8,12 @@ import org.openqa.selenium.support.FindBy;
 public class TextOption extends CommonAPI {
     // Find Elements for Banking by HoverOver option
     @FindBy(xpath = "//a[@class='wlrItem2']//span[contains(text(),'Banking')]")
-    public static WebElement Banking;
+    public static WebElement Banking1;
     @FindBy(xpath = "//a[contains(text(),'Checking')]")
     public static WebElement Checking;
-    public void Banking(){
+    public void Banking1(){
         Actions actions = new Actions(driver);
-        actions.moveToElement(Banking).perform();
+        actions.moveToElement(Banking1).perform();
         actions.moveToElement(Checking).perform();
     }
     //Find Elements for Business by HoverOver option
@@ -35,5 +35,15 @@ public class TextOption extends CommonAPI {
         Actions actions = new Actions(driver);
         actions.moveToElement(Borrowing).perform();
         actions.moveToElement(BorrowingOption).perform();
+    }
+    //Find Elements for Borrowing by HoverOver option
+    @FindBy (xpath = "//a[@class='wlrItem2']//span[contains(text(),'Banking')]")
+    public static WebElement Banking;
+    @FindBy (xpath = "//a[contains(text(),'Checking & Savings')]")
+    public static WebElement CheckingAndSavings;
+    public void Banking(){
+        Actions actions = new Actions(driver);
+        actions.moveToElement(Banking).perform();
+        actions.moveToElement(CheckingAndSavings).perform();
     }
 }

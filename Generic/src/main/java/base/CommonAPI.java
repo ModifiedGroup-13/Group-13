@@ -2,7 +2,7 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
-//import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,7 +27,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -91,9 +90,8 @@ public class CommonAPI {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
-    /*    public void setUpBrowserStack() throws MalformedURLException {
+      /* public void setUpBrowserStack() throws MalformedURLException {
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.setCapability("browser","chrome");
             cap.setCapability("browser_version","68.0");
@@ -103,8 +101,7 @@ public class CommonAPI {
             URL serverUrl = new URL(browserStackUrl);
             driver = new RemoteWebDriver(serverUrl,cap);
         }*/
-    public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
-                                    String browserVersion)throws IOException {
+    public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName, String browserVersion)throws IOException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setCapability("browser",browserName);
         cap.setCapability("browser_version",browserVersion);
@@ -156,7 +153,7 @@ public class CommonAPI {
         return sw.toString();
     }
     //Taking Screen shot
-   /* public static void captureScreenshot(WebDriver driver, String screenshotName){
+    public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
@@ -173,7 +170,7 @@ public class CommonAPI {
     public void takeScreenShot()throws IOException {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file,new File("screenShots.png"));
-    }*/
+    }
     @AfterMethod
     public void afterEachTestMethod(ITestResult result) {
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
@@ -191,18 +188,15 @@ public class CommonAPI {
         }
         ExtentTestManager.endTest();
         extent.flush();
-       /* if (result.getStatus() == ITestResult.FAILURE) {
+        if (result.getStatus() == ITestResult.FAILURE) {
             captureScreenshot(driver, result.getName());
-        }*/
+        }
         driver.quit();
     }
     @AfterSuite
     public void generateReport() {
         extent.close();
     }
-
-
-//************* Methods ****************
 
     public void waitToBeVisible(WebElement element){
         wait.until(ExpectedConditions.visibilityOf(element));
@@ -343,7 +337,6 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
     public List<WebElement> getListOfWebElementsByCss(String locator) {
@@ -437,7 +430,6 @@ public class CommonAPI {
     public void getLinks(String locator){
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
-
     //Synchronization
     public void waitUntilClickAble(WebElement locator){ //previously it was By instead of WebElement
         WebDriverWait wait = new WebDriverWait(driver, 10);

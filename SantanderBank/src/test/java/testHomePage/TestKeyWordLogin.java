@@ -16,4 +16,23 @@ public class TestKeyWordLogin extends KeyWordLogin{
     public void testLoginByKeyword() throws IOException,InterruptedException {
         keyWordLogin.loginByKeyword();
     }
+    @Test
+    public void testLoginByKeyword1() throws IOException,InterruptedException {
+        keyWordLogin.loginByKeyword();
+    }
+
+    @Test
+    public void testLoginByKeyword2() throws IOException,InterruptedException {
+        keyWordLogin.loginByKeyword();
+    }
+
+    @Test
+    public void testLoginByKeyword3() throws IOException,InterruptedException {
+        keyWordLogin.loginByKeyword();
+    }
+
+    @Test
+    public void testLoginByKeyword4() throws IOException,InterruptedException {
+        keyWordLogin.loginByKeyword();
+    }
 }

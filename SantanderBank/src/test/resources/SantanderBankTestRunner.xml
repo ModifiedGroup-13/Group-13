@@ -13,19 +13,19 @@
 
     <test name = "SantanderBank Test" enabled = "true">
         <classes>
-      <!--      <class name="dataFeatures.TestGoogleSheetSearch"/>
-           <class name="testHomePage.TestMainPage"/>
+       <!--    <class name="dataFeatures.TestGoogleSheetSearch"/>
+          <class name="testHomePage.TestMainPage"/>
             <class name="testHomePage.TestHomePageLinks"/>
-            <class name="dataFeatures.TestExlReaderPage"/>
-          <class name="testHomePage.TestHoverOver"/>-->
-            <class name="testHomePage.TestSearch"/>
-       <!--    <class name="testHomePage.TestTextOption"/>
-            <class name="testHomePage.TestBottomLinks"/>
+           <class name="dataFeatures.TestExlReaderPage"/>
+          <class name="testHomePage.TestHoverOver"/>
+            <class name="testHomePage.TestSearch"/>-->
+         <class name="testHomePage.TestTextOption"/>
+        <!--    <class name="testHomePage.TestBottomLinks"/>
             <class name="testHomePage.TestLoginPage"/>
             <class name="testHomePage.TestKeyWordLogin"/>
             <class name="dataFeatures.TestConnectMongoDB"/>
             <class name="dataFeatures.TestConnectToMySql"/>
-            <class name="dataFeatures.TestExlReaderPage"/-->
+            <class name="dataFeatures.TestExlReaderPage"/>-->
         </classes>
     </test>
 </suite>
