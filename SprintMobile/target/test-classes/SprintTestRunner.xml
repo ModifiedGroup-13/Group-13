@@ -13,7 +13,11 @@
 
     <test name = "SprintMobile Home">
         <classes>
-            <class name="testHomePage.TestMainPage"/>
+            <class name="testHomePage.TestMainPage"/>-->
+            <!--<class name="testHomePage.TestSearchPage"/>-->
+            <!--<class name="testHomePage.TestHoverOver"/>-->
+            <!--<class name="testHomePage.TestInPut"/>-->
+            <!--class name="testExcelReader.TestExcelReaderPage"/>
         </classes>
     </test>
 

@@ -71,6 +71,24 @@ public class MainPage extends CommonAPI {
     public static WebElement GalaxyWatch ;
     @FindBy(xpath = "//div[contains(@class,'col-md-auto py-20 border-top border-none-md border--ash pl-md-40 text-center text-left-lg')]//a[contains(@title,'Call 1-844-812-0613')]")
     public static WebElement GalaxyTab ;
+    @FindBy(xpath ="/html/body/div[1]/header/div[2]/div/div[1]/div[1]/nav/div/div/ul[1]/li[1]/div/div/div/div/a")
+    public static WebElement LearnMore ;
+    @FindBy(xpath =" //*[@id=\"main\"]/div[3]/div/div/div/div/div[6]/div/div/div/div/div[2]/div/div[1]/div/div/div/div/div/div[3]/div/div[1]/div/div/div/strong/a")
+    public static WebElement ReadOn ;
+    @FindBy(xpath =" //a[contains(text(),'Shop Now')]")
+    public static WebElement ShopNow1 ;
+    @FindBy(xpath ="//div[contains(@class,'row row--column height-100 middle-xs')]//span[contains(text(),'Learn More')]")
+    public static WebElement LearnMore1 ;
+    @FindBy(xpath ="//*[@id=\"main\"]/div[3]/div/div/div/div/div[6]/div/div/div/div/div[2]/div/div[3]/div/div/div/div/div/div[3]/a/span")
+    public static WebElement FindOutNow1 ;
+    @FindBy(xpath ="//span[contains(text(),'Which iPhone is Right For You?')]")
+    public static WebElement WhichiPhone ;
+    @FindBy(xpath ="//a[@title='Upgrade my Device']")
+    public static WebElement UpgradeMyDevice ;
+    @FindBy(xpath ="//a[contains(@title,'Add a New Line of Service')]")
+    public static WebElement AddaNewLineofService  ;
+    @FindBy(xpath ="//span[contains(text(),'Stay on top of your fitness goals.')]")
+    public static WebElement FitnessGoals  ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -86,7 +104,6 @@ public class MainPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         Support.click();
     }
-
     public void checkMySprint() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -157,7 +174,6 @@ public class MainPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         Stayontopofyourfitnessgoals.click();
     }
-
     public void checkAddaNewLineofservice() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -173,7 +189,6 @@ public class MainPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         ShopNowiPad.click();
     }
-
     public void checkShopNowiPhonex() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -238,5 +253,48 @@ public class MainPage extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         GalaxyTab.click();
+    }
+    public void checkLearnMore() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        LearnMore.click();
+    }
+    public void checkReadOn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ReadOn.click();
+    }
+    public void checkShopNow1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        ShopNow1.click();
+    }
+    public void checkLearnMore1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        LearnMore1.click();
+    }
+    public void checkFindOutNow1() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        FindOutNow1.click();
+    }
+    public void checkWhichiPhone() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        WhichiPhone.click();
+    }
+    public void checkUpgradeMyDevice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        UpgradeMyDevice.click();
+    }
+    public void checkAddaNewLineofService() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        AddaNewLineofService.click();
+    }
+    public void checkFitnessGoals() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        FitnessGoals.click();
     }
 }

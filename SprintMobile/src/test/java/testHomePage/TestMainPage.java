@@ -181,4 +181,50 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkGalaxyTab ();
     }
+    @Test
+    public void testLearnMore(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkLearnMore ();
+    }
+
+    @Test
+    public void testReadOn(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkReadOn ();
+    }
+    @Test
+    public void testShopNow1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopNow1 ();
+    }
+    @Test
+    public void testLearnMore1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkLearnMore1 ();
+    }
+    @Test
+    public void testFindOutNow1(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFindOutNow1 ();
+    }
+    @Test
+    public void testWhichiPhone(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkWhichiPhone ();
+    }
+    @Test
+    public void testUpgradeMyDevice(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkUpgradeMyDevice ();
+    }
+    @Test
+    public void testAddaNewLineofService(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAddaNewLineofService ();
+    }
+    @Test
+    public void testFitnessGoals(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFitnessGoals ();
+    }
 }

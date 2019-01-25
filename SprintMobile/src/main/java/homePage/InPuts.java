@@ -12,8 +12,8 @@ public class InPuts extends CommonAPI {
     public static WebElement searchKey;
     @FindBy(xpath = "//div[@class='sprint-brand-header-search']//input[@type='search']")
     public static WebElement searchField;
-    @FindBy(id = "doc-48f933b2d075728595c2e7d3082744aa")
-    public static WebElement device;
+//    @FindBy(id = "doc-48f933b2d075728595c2e7d3082744aa")
+//    public static WebElement device;
 
 
     public void checksearchKey() throws InterruptedException {
