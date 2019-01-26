@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BedAndBath" />
         <module name="Costco" />
-        <module name="DropDown" />
         <module name="Generic" />
+        <module name="RestAPI" />
         <module name="SantanderBank" />
         <module name="SprintMobile" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DropDown" target="1.8" />
       <module name="TableAutomationM" target="1.8" />
     </bytecodeTargetLevel>
   </component>

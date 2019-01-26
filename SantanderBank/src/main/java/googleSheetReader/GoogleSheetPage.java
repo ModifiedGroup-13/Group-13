@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
 import static base.CommonAPI.driver;
 import static googleSheetReader.GoogleSheetReader.getSheetsService;
 
@@ -54,6 +53,7 @@ public class GoogleSheetPage {
             WebDriverWait wait = new WebDriverWait(driver,3);
             wait.until(ExpectedConditions.elementToBeClickable(logInSubmitButton));
             logInSubmitButton.click();
+            logInSubmitButton.clear();
             //actual.add(getCurrentPageTitle());
             // actual.add(getTextByWebElement(errorMsg));
             //System.out.println(getTextByWebElement(errorMsg));

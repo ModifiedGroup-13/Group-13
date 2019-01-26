@@ -14,7 +14,7 @@
         <module>BedAndBath</module>
         <module>SantanderBank</module>
         <module>SprintMobile</module>
-        <module>DropDown</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>

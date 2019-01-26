@@ -44,7 +44,6 @@ import java.util.List;
                 System.exit(1);
             }
         }
-
         /**
          * Creates an authorized Credential object.
          *

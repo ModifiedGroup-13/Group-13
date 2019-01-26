@@ -15,20 +15,18 @@ public class Search extends CommonAPI {
     public static WebElement submitButton;
     public static void waitToBeVisible(){
         TestLogger.log(Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-       // searchKey.click();
         wait.until(ExpectedConditions.visibilityOf(searchField));
     }
     public void searchByENTERKeyword(String searchKeys){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-      //  waitToBeVisible();
         driver.manage().window().maximize();
         searchField.sendKeys(searchKeys, Keys.ENTER);
     }
     public void searchBySubmitButton(String searchKeys){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-      //  waitToBeVisible();
         driver.manage().window().maximize();
         searchField.sendKeys(searchKeys);
+        searchField.clear();
         submitButton.click();
     }
 }
