@@ -2,6 +2,7 @@ package testExcelReader;
 
 import base.CommonAPI;
 import com.relevantcodes.extentreports.ExtentReports;
+
 import excelReader.ExcelReaderPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -14,6 +15,7 @@ public class TestExcelReaderPage extends CommonAPI {
     public void setUp() {
         this.excelReaderPage = new ExcelReaderPage();
         reports = ExtentManager.getInstance();
+
     }
     @Test(priority = 1)
     public void itemsSearchFromExcelData() throws InterruptedException {

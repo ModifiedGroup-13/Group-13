@@ -89,6 +89,10 @@ public class MainPage extends CommonAPI {
     public static WebElement AddaNewLineofService  ;
     @FindBy(xpath ="//span[contains(text(),'Stay on top of your fitness goals.')]")
     public static WebElement FitnessGoals  ;
+    @FindBy(xpath ="//div[contains(@class,'col-md-auto py-20 border-right-md border--ash text-center')]//a[contains(@title,'Shop Now')]")
+    public static WebElement ShopNow2  ;
+    @FindBy(xpath ="//body[contains(@class,'vanilla-modal')]")
+    public static WebElement ShopNow3  ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -297,4 +301,12 @@ public class MainPage extends CommonAPI {
     }.getClass().getEnclosingMethod().getName()));
         FitnessGoals.click();
     }
+    public void checkShopNow2() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        ShopNow2.click();
+    }
+    public void checkShopNow3() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+     }.getClass().getEnclosingMethod().getName()));
+        ShopNow3.click();
+   }
 }

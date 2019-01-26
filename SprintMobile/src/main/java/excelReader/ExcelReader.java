@@ -2,14 +2,12 @@ package excelReader;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
 import java.io.File;
 import java.io.FileInputStream;
-
-public class ExcelReaderUtil {
+public class ExcelReader {
     XSSFWorkbook wb;
     XSSFSheet ExcelData;
-    public ExcelReaderUtil(String xlfilepath){
+    public ExcelReader(String xlfilepath){
         try{
             File src = new File(xlfilepath);
             FileInputStream fis =new FileInputStream(src);

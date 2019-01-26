@@ -8,9 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by mrahman on 04/02/18.
- */
+
 
 public class ConnectToSqlDB {
 
@@ -21,8 +19,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/mrahman/develop/pnt/Web-Automation-November2018/Generic/secret.properties");
-        //Users/mrahman/develop/pnt/Web-Automation-November2018/Generic/src/secret.properties
+        InputStream ism = new FileInputStream("C:\\Users\\imran\\Desktop\\clone\\Group-13\\SprintMobile\\src\\test\\resources\\secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -185,10 +182,10 @@ public class ConnectToSqlDB {
     {
         try {
             connectToSqlDatabase();
-                ps = connect.prepareStatement("INSERT INTO "+tableName+" ( " + columnName1 + "," + columnName2 + " ) VALUES(?,?)");
-                ps.setString(1,"Ankita Sing");
-                ps.setInt(2,3590);
-                ps.executeUpdate();
+            ps = connect.prepareStatement("INSERT INTO "+tableName+" ( " + columnName1 + "," + columnName2 + " ) VALUES(?,?)");
+            ps.setString(1,"Ankita Sing");
+            ps.setInt(2,3590);
+            ps.executeUpdate();
 
 
         } catch (IOException e) {
@@ -205,7 +202,7 @@ public class ConnectToSqlDB {
         User user = null;
         try{
             Connection conn = connectToSqlDatabase();
-            String query = "SELECT * FROM Students";
+            String query = "Select * from Students";
             // create the java statement
             Statement st = conn.createStatement();
             // execute the query, and get a java resultset

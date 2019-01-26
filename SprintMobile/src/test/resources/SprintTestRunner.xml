@@ -11,13 +11,14 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.sprint.com"/>
 
-    <test name = "SprintMobile Home">
+    <test name = "SprintMobile Home" enabled="true">
         <classes>
-            <class name="testHomePage.TestMainPage"/>-->
+                <class name="testHomePage.TestMainPage"/>
             <!--<class name="testHomePage.TestSearchPage"/>-->
             <!--<class name="testHomePage.TestHoverOver"/>-->
-            <!--<class name="testHomePage.TestInPut"/>-->
-            <!--class name="testExcelReader.TestExcelReaderPage"/>
+            <!--<class name="testHomePage.TestInPut"/> -->
+            <!--class name="testHomePage.TestGoogleSheetReader"/>-->
+            <!--class name="testExcelReader.TestExcelReaderPage"/>-->
         </classes>
     </test>
 

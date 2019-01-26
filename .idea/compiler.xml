@@ -9,8 +9,8 @@
         <module name="BedAndBath" />
         <module name="Costco" />
         <module name="Generic" />
+        <module name="RestAPI" />
         <module name="SantanderBank" />
-        <module name="SprintMobile" />
         <module name="TableAutomation" />
       </profile>
     </annotationProcessing>

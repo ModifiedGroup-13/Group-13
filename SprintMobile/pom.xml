@@ -10,6 +10,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>SprintMobile</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>RestAPI</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>Group-13</groupId>
@@ -34,7 +38,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>C:\Users\imran\Desktop\clone\Group-13\SprintMobile\target\test-classes\SprintTestRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>target\test-classes\SprintTestRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
