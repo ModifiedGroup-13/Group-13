@@ -93,6 +93,12 @@ public class MainPage extends CommonAPI {
     public static WebElement ShopNow2  ;
     @FindBy(xpath ="//body[contains(@class,'vanilla-modal')]")
     public static WebElement ShopNow3  ;
+    @FindBy(xpath ="//div[contains(@class,'col-md-16 text-center text-left-md')]//span[contains(text(),'Call 1-844-812-0613')]")
+    public static WebElement Call18448120613  ;
+    @FindBy(xpath ="//div[contains(@class,'align-center')]//a[contains(@title,'Learn More')]")
+    public static WebElement LearnMore2 ;
+    @FindBy(xpath ="//*[@id=\"main\"]/div[14]/div/div/div/div/div[2]/div/div/div/div/div/div[4]/a/span")
+    public static WebElement CallNow18448120613 ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -309,4 +315,16 @@ public class MainPage extends CommonAPI {
      }.getClass().getEnclosingMethod().getName()));
         ShopNow3.click();
    }
+    public void checkCall18448120613() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        ShopNow3.click();
+    }
+    public void checkLearnMore2() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        LearnMore2.click();
+    }
+    public void checkCallNow18448120613() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        CallNow18448120613.click();
+    }
 }
