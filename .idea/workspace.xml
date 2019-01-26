@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+            <state relative-caret-position="3651">
+              <caret line="312" selection-start-line="312" selection-end-line="312" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+              <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -404,7 +404,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548486991095" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548489568703" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileAutomationFrameWorkTofaelNov2018" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -451,43 +451,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testCallNow18448120613">
-    <configuration name="SingleEmployeeResource.postInfo2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.SingleEmployeeResource" />
-      <option name="METHOD_NAME" value="postInfo2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testCall18448120613" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SprintMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testCall18448120613" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestMainPage.testShopNow6">
     <configuration name="TestMainPage.testCallNow18448120613" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
@@ -524,7 +488,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testShopNow3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testShopNow4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SprintMobile" />
       <extension name="coverage">
         <pattern>
@@ -534,7 +498,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testShopNow3" />
+      <option name="METHOD_NAME" value="testShopNow4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testShopNow5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testShopNow5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testShopNow6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SprintMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testShopNow6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -544,11 +544,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testShopNow6" />
+        <item itemvalue="TestNG.TestMainPage.testShopNow5" />
+        <item itemvalue="TestNG.TestMainPage.testShopNow4" />
         <item itemvalue="TestNG.TestMainPage.testCallNow18448120613" />
         <item itemvalue="TestNG.TestMainPage.testLearnMore2" />
-        <item itemvalue="TestNG.TestMainPage.testCall18448120613" />
-        <item itemvalue="TestNG.TestMainPage.testShopNow3" />
-        <item itemvalue="TestNG.SingleEmployeeResource.postInfo2" />
       </list>
     </recent_temporary>
   </component>
@@ -589,21 +589,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleEmployeeResource_updateInfo - 2019.01.26 at 00h 09m 07s.xml">
-      <configuration name="SingleEmployeeResource.updateInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SingleEmployeeResource_updateInfo - 2019.01.26 at 00h 25m 04s.xml">
-      <configuration name="SingleEmployeeResource.updateInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SingleEmployeeResource_postInfo1 - 2019.01.26 at 01h 28m 26s.xml">
-      <configuration name="SingleEmployeeResource.postInfo1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SingleEmployeeResource_updateInfo - 2019.01.26 at 01h 29m 58s.xml">
-      <configuration name="SingleEmployeeResource.updateInfo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SingleEmployeeResource_postInfo2 - 2019.01.26 at 01h 38m 05s.xml">
-      <configuration name="SingleEmployeeResource.postInfo2" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testShopNow3 - 2019.01.26 at 01h 51m 44s.xml">
       <configuration name="TestMainPage.testShopNow3" configurationId="TestNG" />
     </history-entry>
@@ -618,6 +603,21 @@
     </history-entry>
     <history-entry file="TestMainPage_testLearnMore2 - 2019.01.26 at 02h 11m 22s.xml">
       <configuration name="TestMainPage.testLearnMore2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testCallNow18448120613 - 2019.01.26 at 02h 16m 53s.xml">
+      <configuration name="TestMainPage.testCallNow18448120613" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNow4 - 2019.01.26 at 02h 23m 32s.xml">
+      <configuration name="TestMainPage.testShopNow4" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNow5 - 2019.01.26 at 02h 31m 28s.xml">
+      <configuration name="TestMainPage.testShopNow5" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNow5 - 2019.01.26 at 02h 34m 26s.xml">
+      <configuration name="TestMainPage.testShopNow5" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShopNow5 - 2019.01.26 at 02h 36m 12s.xml">
+      <configuration name="TestMainPage.testShopNow5" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -711,7 +711,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java</url>
-          <line>269</line>
+          <line>275</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -1115,7 +1115,7 @@
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
+          <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1124,8 +1124,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SprintMobile/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+        <state relative-caret-position="3651">
+          <caret line="312" selection-start-line="312" selection-end-line="312" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

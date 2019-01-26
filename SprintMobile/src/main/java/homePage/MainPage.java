@@ -99,6 +99,12 @@ public class MainPage extends CommonAPI {
     public static WebElement LearnMore2 ;
     @FindBy(xpath ="//*[@id=\"main\"]/div[14]/div/div/div/div/div[2]/div/div/div/div/div/div[4]/a/span")
     public static WebElement CallNow18448120613 ;
+    @FindBy(xpath ="//div[contains(@class,'col-md-auto text-center bgc--ash-light')]//a[contains(@title,'Shop Now')]")
+    public static WebElement ShopNow4 ;
+    @FindBy(xpath ="//*[@id=\"main\"]/div[15]/div/div/div/div/div/div/div[2]/div/div/div[2]/div[3]/a/span")
+    public static WebElement ShopNow5 ;
+    @FindBy(xpath ="//div[contains(@class,'col-md-auto text-center mt-20 mt-md-0 bgc--ash-light')]//a[contains(@title,'Shop Now')]")
+    public static WebElement ShopNow6 ;
     public void checkShopDevices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -326,5 +332,17 @@ public class MainPage extends CommonAPI {
     public void checkCallNow18448120613() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
     }.getClass().getEnclosingMethod().getName()));
         CallNow18448120613.click();
+    }
+    public void checkShopNow4() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        ShopNow4.click();
+    }
+    public void checkShopNow5() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        ShopNow5.click();
+    }
+    public void checkShopNow6() {TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+    }.getClass().getEnclosingMethod().getName()));
+        ShopNow6.click();
     }
 }
