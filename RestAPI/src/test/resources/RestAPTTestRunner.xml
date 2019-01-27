@@ -14,7 +14,7 @@
 
     <test name = "Employee Information Services">
         <classes>
-            <class name="employees.AllEmployeesAPI"/>
+            <class name="employees.SingleEmployeeAPI"/>
             <class name="employees.AllEmployeesAPI"/>
         </classes>
     </test>
